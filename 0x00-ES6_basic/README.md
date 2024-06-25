@@ -2,8 +2,8 @@
 
 *For this project, we expect you to look at these concepts:*
 
-- [JavaScript programming (/concepts/852)
-- [Software Linter (/concepts/542)
+- [JavaScript programming]()
+- [Software Linter]()
 
 Resources
 Read or watch:
