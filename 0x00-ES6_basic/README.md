@@ -94,16 +94,16 @@ Add the files below to your project directory
 
 ```javascript
 module.exports = {
-presets: [
-[
-'@babel/preset-env',
-{
-targets: {
-node: 'current',
-},
-},
-],
-],
+  presets: [
+    [
+      '@babel/preset-env',
+      {
+        targets: {
+          node: 'current',
+        },
+      },
+    ],
+  ],
 };
 ```
 
