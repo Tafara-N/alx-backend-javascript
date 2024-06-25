@@ -5,6 +5,8 @@
 - [JavaScript programming]()
 - [Software Linter]()
 
+![Arrow Functions]()
+
 # Resources
 
 **Read or watch:**
