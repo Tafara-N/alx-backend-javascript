@@ -65,9 +65,10 @@ install .
 
 Configuration files
 Add the files below to your project directory
-package.json
-Click here to show/hide file contents
 
+`package.json`
+
+```json
 {
 "scripts": {
 "lint": "./node_modules/.bin/eslint",
@@ -87,10 +88,11 @@ Click here to show/hide file contents
 "jest": "^24.9.0"
 }
 }
+```
 
-babel.config.js
-Click here to show/hide file contents
+`babel.config.js`
 
+```javascript
 module.exports = {
 presets: [
 [
@@ -102,22 +104,22 @@ node: 'current',
 },
 ],
 ],
-}; 
-(/)
+};
+```
 
-.eslintrc.js
-Click here to show/hide file contents
+`.eslintrc.js`
 
+```javascript
 module.exports = {
-env: {
-browser: false,
-es6: true,
-jest: true,
-},
-extends: [
-'airbnb-base',
-'plugin:jest/all',
-],
+  env: {
+    browser: false,
+    es6: true,
+    jest: true,
+ },
+ extends: [
+   'airbnb-base',
+   'plugin:jest/all',
+ ],
 globals: {
 Atomics: 'readonly',
 SharedArrayBuffer: 'readonly',
@@ -143,6 +145,7 @@ excludedFiles: 'babel.config.js',
 }
 ]
 };
+```
 
 # Finally...
 
