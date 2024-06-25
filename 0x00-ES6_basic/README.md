@@ -11,6 +11,6 @@
 - [ECMAScript 6 - ECMAScript 2015 (/rltoken/NW1dFLFExQ12_hD8yvkV3A)
 - [Statements and declarations (/rltoken/sroRUsUvOZV28V99MHDenw)
 - [Arrow functions (/rltoken/N2WLylppCtkkX3YFFtyUHw)
-- [Default parameters (/rltoken/kbw9gMO6sdeOKAY23SYVgA)
+- [Default parameters]()
 - [Rest parameter]()
 - [Javascript ES6 — Iterables and Iterators]()
