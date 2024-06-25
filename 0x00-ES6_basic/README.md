@@ -5,7 +5,7 @@
 - [JavaScript programming]()
 - [Software Linter]()
 
-![Arrow Functions]()
+![Arrow Functions](arrow_functions.jpeg)
 
 # Resources
 
