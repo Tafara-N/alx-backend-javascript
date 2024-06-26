@@ -567,6 +567,7 @@ bob@dylan:~$
 
 Write a function named `createReportObject` whose parameter, `employeesList`, is the return value of the previous function `createEmployeesObject`.
 
+```javascript
 export default function createReportObject(employeesList) {
 
 }
