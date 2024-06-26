@@ -451,10 +451,11 @@ bob@dylan:~$
 - Directory: `0x00-ES6_basic`
 - File: 8-getBudgetCurrentYear.js
 
-9. ES6 method properties
-mandatory
-Rewrite getFullBudgetObject to use ES6 method properties in the fullBudget object
+### 9. ES6 method properties
 
+Rewrite `getFullBudgetObject` to use ES6 method properties in the `fullBudget` object
+
+```javascript
 import getBudgetObject from './7-getBudgetObject.js';
 
 export default function getFullBudgetObject(income, gdp, capita) {
@@ -471,8 +472,11 @@ export default function getFullBudgetObject(income, gdp, capita) {
 
   return fullBudget;
 }
+```
+
 Execution:
 
+```bash
 bob@dylan:~$ cat 9-main.js
 import getFullBudgetObject from './9-getFullBudget.js';
 
@@ -486,11 +490,12 @@ bob@dylan:~$ npm run dev 9-main.js
 $20
 20 euros
 bob@dylan:~$
-**Repo:**
+```
 
+**Repo:**
 - GitHub repository: `alx-backend-javascript`
 - Directory: `0x00-ES6_basic`
-- File: 9-getFullBudget.js
+- File: `9-getFullBudget.js`
 
 ### 10. For...of Loops
 
