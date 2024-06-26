@@ -324,14 +324,18 @@ bob@dylan:~$
 - Directory: `0x00-ES6_basic`
 - File: 4-rest-parameter.js
 
-5. The wonders of spread syntax
-mandatory
+### 5. The wonders of spread syntax
+
 Using spread syntax, concatenate 2 arrays and each character of a string by modifying the function below. Your function body should be one line long.
 
+```javascript
 export default function concatArrays(array1, array2, string) {
 }
+```
+
 Execution:
 
+```bash
 bob@dylan:~$ cat 5-main.js
 import concatArrays from './5-spread-operator.js';
 
@@ -345,11 +349,12 @@ bob@dylan:~$ npm run dev 5-main.js
   'l', 'l', 'o'
 ]
 bob@dylan:~$
-**Repo:**
+```
 
+**Repo:**
 - GitHub repository: `alx-backend-javascript`
 - Directory: `0x00-ES6_basic`
-- File: 5-spread-operator.js
+- File: `5-spread-operator.js`
 
 ### 6. Take advantage of template literals
 
