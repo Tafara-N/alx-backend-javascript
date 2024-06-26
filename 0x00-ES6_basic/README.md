@@ -521,24 +521,32 @@ bob@dylan:~$
 - Directory: `0x00-ES6_basic`
 - File: 10-loops.js
 
-11. Iterator
-mandatory
-Write a function named createEmployeesObject that will receive two arguments:
+### 11. Iterator
 
-departmentName (String)
-employees (Array of Strings)
+Write a function named `createEmployeesObject` that will receive two arguments:
+
+- `departmentName` (String)
+- `employees` (Array of Strings)
+
+```javascript
 export default function createEmployeesObject(departmentName, employees) {
 
 }
+```
+
 The function should return an object with the following format:
 
+```javascript
 {
      $departmentName: [
           $employees,
      ],
 }
+```
+
 Execution:
 
+```bash
 bob@dylan:~$ cat 11-main.js
 import createEmployeesObject from './11-createEmployeesObject.js';
 
@@ -548,11 +556,12 @@ bob@dylan:~$
 bob@dylan:~$ npm run dev 11-main.js
 { Software: [ 'Bob', 'Sylvie' ] }
 bob@dylan:~$
-**Repo:**
+```
 
+**Repo:**
 - GitHub repository: `alx-backend-javascript`
 - Directory: `0x00-ES6_basic`
-- File: 11-createEmployeesObject.js
+- File: `11-createEmployeesObject.js`
 
 ### 12. Let's create a report object
 
