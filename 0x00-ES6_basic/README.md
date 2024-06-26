@@ -192,7 +192,7 @@ Repo:
 
 GitHub repository: alx-backend-javascript
 Directory: 0x00-ES6_basic
-File: 0-constants.js
+- File: 0-constants.js
 
 1. Block Scope
 mandatory
@@ -225,7 +225,7 @@ Repo:
 
 GitHub repository: alx-backend-javascript
 Directory: 0x00-ES6_basic
-File: 1-block-scoped.js
+- File: 1-block-scoped.js
 
 2. Arrow functions
 mandatory
@@ -256,7 +256,7 @@ Repo:
 
 GitHub repository: alx-backend-javascript
 Directory: 0x00-ES6_basic
-File: 2-arrow.js
+- File: 2-arrow.js
 
 3. Parameter defaults
 mandatory
@@ -292,7 +292,7 @@ Repo:
 
 GitHub repository: alx-backend-javascript
 Directory: 0x00-ES6_basic
-File: 3-default-parameter.js
+- File: 3-default-parameter.js
 
 4. Rest parameter syntax for functions
 mandatory
@@ -322,7 +322,7 @@ Repo:
 
 GitHub repository: alx-backend-javascript
 Directory: 0x00-ES6_basic
-File: 4-rest-parameter.js
+- File: 4-rest-parameter.js
 
 5. The wonders of spread syntax
 mandatory
@@ -349,7 +349,7 @@ Repo:
 
 GitHub repository: alx-backend-javascript
 Directory: 0x00-ES6_basic
-File: 5-spread-operator.js
+- File: 5-spread-operator.js
 
 6. Take advantage of template literals
 mandatory
@@ -382,7 +382,7 @@ Repo:
 
 GitHub repository: alx-backend-javascript
 Directory: 0x00-ES6_basic
-File: 6-string-interpolation.js
+- File: 6-string-interpolation.js
 
 7. Object property value shorthand syntax
 mandatory
@@ -414,7 +414,7 @@ Repo:
 
 GitHub repository: alx-backend-javascript
 Directory: 0x00-ES6_basic
-File: 7-getBudgetObject.js
+- File: 7-getBudgetObject.js
 
 8. No need to create empty objects before adding in properties
 mandatory
@@ -449,7 +449,7 @@ Repo:
 
 GitHub repository: alx-backend-javascript
 Directory: 0x00-ES6_basic
-File: 8-getBudgetCurrentYear.js
+- File: 8-getBudgetCurrentYear.js
 
 9. ES6 method properties
 mandatory
@@ -490,7 +490,7 @@ Repo:
 
 GitHub repository: alx-backend-javascript
 Directory: 0x00-ES6_basic
-File: 9-getFullBudget.js
+- File: 9-getFullBudget.js
 
 10. For...of Loops
 mandatory
@@ -519,7 +519,7 @@ Repo:
 
 GitHub repository: alx-backend-javascript
 Directory: 0x00-ES6_basic
-File: 10-loops.js
+- File: 10-loops.js
 
 11. Iterator
 mandatory
@@ -552,7 +552,7 @@ Repo:
 
 GitHub repository: alx-backend-javascript
 Directory: 0x00-ES6_basic
-File: 11-createEmployeesObject.js
+- File: 11-createEmployeesObject.js
 
 12. Let's create a report object
 mandatory
@@ -599,7 +599,7 @@ Repo:
 
 GitHub repository: alx-backend-javascript
 Directory: 0x00-ES6_basic
-File: 12-createReportObject.js
+- File: 12-createReportObject.js
 
 13. Iterating through report objects
 #advanced
@@ -641,7 +641,7 @@ Repo:
 
 GitHub repository: alx-backend-javascript
 Directory: 0x00-ES6_basic
-File: 100-createIteratorObject.js
+- File: 100-createIteratorObject.js
 
 14. Iterate through object
 #advanced
@@ -704,4 +704,4 @@ Repo:
 
 GitHub repository: alx-backend-javascript
 Directory: 0x00-ES6_basic
-File: 101-iterateThroughObject.js
+- File: 101-iterateThroughObject.js
