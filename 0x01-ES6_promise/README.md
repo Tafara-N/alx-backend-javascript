@@ -206,21 +206,26 @@ GitHub repository: alx-backend-javascript
 Directory: 0x01-ES6_promise
 File: `0-promise.js`
 
-1. Don't make a promise...if you know you can't keep it
-mandatory
-Using the prototype below, return a promise. The parameter is a boolean.
+### 1. Don't make a promise...if you know you can't keep it
 
+Using the prototype below, return a `promise`. The parameter is a `boolean`.
+
+```javascript
 getFullResponseFromAPI(success)
+```
+
 When the argument is:
 
-true
-resolve the promise by passing an object with 2 attributes:
-status: 200
-body: 'Success'
-false
-reject the promise with an error object with the message The fake API is not working currently
+- true
+	- resolve the promise by passing an object with 2 attributes:
+		`status`: `200`
+		`body`: `'Success'`
+- false
+	- reject the promise with an error object with the message `The fake API is not working currently`
+
 Try testing it out for yourself
 
+```bash
 bob@dylan:~$ cat 1-main.js
 import getFullResponseFromAPI from './1-promise';
 
@@ -235,24 +240,30 @@ Promise {
     ...
     ...
 bob@dylan:~$
-Repo:
+```
 
+Repo:
 GitHub repository: alx-backend-javascript
 Directory: 0x01-ES6_promise
-File: 1-promise.js
+File: `1-promise.js`
 
-2. Catch me if you can!
-mandatory
+### 2. Catch me if you can!
+
 Using the function prototype below
 
+```javascript
 function handleResponseFromAPI(promise)
+```
+
 Append three handlers to the function:
 
-When the Promise resolves, return an object with the following attributes
-status: 200
-body: success
-When the Promise rejects, return an empty Error object
-For every resolution, log Got a response from the API to the console
+- When the Promise resolves, return an object with the following attributes
+	- `status`: `200`
+	- `body`: `success`
+- When the Promise rejects, return an empty `Error` object
+- For every resolution, log `Got a response from the API` to the console
+
+```bash
 bob@dylan:~$ cat 2-main.js
 import handleResponseFromAPI from "./2-then";
 
@@ -263,21 +274,26 @@ bob@dylan:~$
 bob@dylan:~$ npm run dev 2-main.js
 Got a response from the API
 bob@dylan:~$
-Repo:
+```
 
+Repo:
 GitHub repository: alx-backend-javascript
 Directory: 0x01-ES6_promise
-File: 2-then.js
+File: `2-then.js`
 
-3. Handle multiple successful promises
-mandatory
-In this file, import uploadPhoto and createUser from utils.js
+### 3. Handle multiple successful promises
 
-Knowing that the functions in utils.js return promises, use the prototype below to collectively resolve all promises and log body firstName lastName to the console.
+In this file, import `uploadPhoto` and `createUser` from `utils.js`
 
+Knowing that the functions in `utils.js` return promises, use the prototype below to collectively resolve all promises and log `body firstName lastName` to the console.
+
+```javascript
 function handleProfileSignup()
-In the event of an error, log Signup system offline to the console
+```
 
+In the event of an error, log `Signup system offline` to the console
+
+```bash
 bob@dylan:~$ cat 3-main.js
 import handleProfileSignup from "./3-all";
 
@@ -287,24 +303,32 @@ bob@dylan:~$
 bob@dylan:~$ npm run dev 3-main.js
 photo-profile-1 Guillaume Salva
 bob@dylan:~$
-Repo:
+```
 
+Repo:
 GitHub repository: alx-backend-javascript
 Directory: 0x01-ES6_promise
-File: 3-all.js
+File: `3-all.js`
 
-4. Simple promise
-mandatory
+### 4. Simple promise
+
 Using the following prototype
 
+```javascript
 function signUpUser(firstName, lastName) {
 }
+```
+
 That returns a resolved promise with this object:
 
+```javascript
 {
   firstName: value,
   lastName: value,
 }
+```
+
+```bash
 bob@dylan:~$ cat 4-main.js
 import signUpUser from "./4-user-promise";
 
@@ -314,21 +338,26 @@ bob@dylan:~$
 bob@dylan:~$ npm run dev 4-main.js
 Promise { { firstName: 'Bob', lastName: 'Dylan' } }
 bob@dylan:~$
-Repo:
+```
 
+Repo:
 GitHub repository: alx-backend-javascript
 Directory: 0x01-ES6_promise
-File: 4-user-promise.js
+File: `4-user-promise.js`
 
-5. Reject the promises
-mandatory
-Write and export a function named uploadPhoto. It should accept one argument fileName (string).
+### 5. Reject the promises
 
-The function should return a Promise rejecting with an Error and the string $fileName cannot be processed
+Write and export a function named `uploadPhoto`. It should accept one argument `fileName` (string).
 
+The function should return a Promise rejecting with an Error and the string `$fileName cannot be processed`
+
+```javascript
 export default function uploadPhoto(filename) {
 
 }
+```
+
+```bash
 bob@dylan:~$ cat 5-main.js
 import uploadPhoto from './5-photo-reject';
 
@@ -341,18 +370,20 @@ Promise {
   ..
     ..
 bob@dylan:~$
-Repo:
+```
 
+Repo:
 GitHub repository: alx-backend-javascript
 Directory: 0x01-ES6_promise
-File: 5-photo-reject.js
+File: `5-photo-reject.js`
 
-6. Handle multiple promises
-mandatory
-Import signUpUser from 4-user-promise.js and uploadPhoto from 5-photo-reject.js.
+### 6. Handle multiple promises
 
-Write and export a function named handleProfileSignup. It should accept three arguments firstName (string), lastName (string), and fileName (string). The function should call the two other functions. When the promises are all settled it should return an array with the following structure:
+Import `signUpUser` from `4-user-promise.js` and `uploadPhoto` from `5-photo-reject.js`.
 
+Write and export a function named `handleProfileSignup`. It should accept three arguments `firstName` (string), `lastName` (string), and `fileName` (string). The function should call the two other functions. When the promises are all settled it should return an array with the following structure:
+
+```javascript
 [
     {
       status: status_of_the_promise,
@@ -360,6 +391,9 @@ Write and export a function named handleProfileSignup. It should accept three ar
     },
     ...
   ]
+```
+
+```bash
 bob@dylan:~$ cat 6-main.js
 import handleProfileSignup from './6-final-user';
 
@@ -369,21 +403,26 @@ bob@dylan:~$
 bob@dylan:~$ npm run dev 6-main.js
 Promise { <pending> }
 bob@dylan:~$
-Repo:
+```
 
+Repo:
 GitHub repository: alx-backend-javascript
 Directory: 0x01-ES6_promise
-File: 6-final-user.js
+File: `6-final-user.js`
 
-7. Load balancer
-mandatory
-Write and export a function named loadBalancer. It should accept two arguments chinaDownload (Promise) and USDownload (Promise).
+### 7. Load balancer
+
+Write and export a function named `loadBalancer`. It should accept two arguments `chinaDownload` (Promise) and `USDownload` (Promise).
 
 The function should return the value returned by the promise that resolved the first.
 
+```javascript
 export default function loadBalancer(chinaDownload, USDownload) {
 
 }
+```
+
+```bash
 bob@dylan:~$ cat 7-main.js
 import loadBalancer from "./7-load_balancer";
 
@@ -414,21 +453,26 @@ bob@dylan:~$ npm run dev 7-main.js
 Downloading from UK is faster
 Downloading from FR is faster
 bob@dylan:~$
-Repo:
+```
 
+Repo:
 GitHub repository: alx-backend-javascript
 Directory: 0x01-ES6_promise
-File: 7-load_balancer.js
+File: `7-load_balancer.js`
 
-8. Throw error / try catch
-mandatory
-Write a function named divideFunction that will accept two arguments: numerator (Number) and denominator (Number).
+### 8. Throw error / try catch
 
-When the denominator argument is equal to 0, the function should throw a new error with the message cannot divide by 0. Otherwise it should return the numerator divided by the denominator.
+Write a function named `divideFunction` that will accept two arguments: `numerator` (Number) and `denominator` (Number).
 
+When the `denominator` argument is equal to 0, the function should throw a new error with the message `cannot divide by 0`. Otherwise it should return the numerator divided by the denominator.
+
+```javascript
 export default function divideFunction(numerator, denominator) {
 
 }
+```
+
+```bash
 bob@dylan:~$ cat 8-main.js
 import divideFunction from './8-try';
 
@@ -444,26 +488,31 @@ bob@dylan:~$ npm run dev 8-main.js
 .....
 
 bob@dylan:~$
-Repo:
+```
 
+Repo:
 GitHub repository: alx-backend-javascript
 Directory: 0x01-ES6_promise
-File: 8-try.js
+File: `8-try.js`
 
-9. Throw an error
-mandatory
-Write a function named guardrail that will accept one argument mathFunction (Function).
+### 9. Throw an error
 
-This function should create and return an array named queue.
+Write a function named `guardrail` that will accept one argument `mathFunction` (Function).
 
-When the mathFunction function is executed, the value returned by the function should be appended to the queue. If this function throws an error, the error message should be appended to the queue. In every case, the message Guardrail was processed should be added to the queue.
+This function should create and return an array named `queue`.
+
+When the `mathFunction` function is executed, the value returned by the function should be appended to the queue. If this function throws an error, the error message should be appended to the queue. In every case, the message `Guardrail was processed` should be added to the queue.
 
 Example:
 
+```javascript
 [
   1000,
   'Guardrail was processed',
 ]
+```
+
+```bash
 bob@dylan:~$ cat 9-main.js
 import guardrail from './9-try';
 import divideFunction from './8-try';
@@ -476,28 +525,36 @@ bob@dylan:~$ npm run dev 9-main.js
 [ 5, 'Guardrail was processed' ]
 [ 'Error: cannot divide by 0', 'Guardrail was processed' ]
 bob@dylan:~$
-Repo:
+```
 
+Repo:
 GitHub repository: alx-backend-javascript
 Directory: 0x01-ES6_promise
-File: 9-try.js
+File: `9-try.js`
 
-10. Await / Async
-#advanced
-Import uploadPhoto and createUser from utils.js
+### 10. Await / Async
 
-Write an async function named asyncUploadUser that will call these two functions and return an object with the following format:
+Import `uploadPhoto` and `createUser` from `utils.js`
 
+Write an async function named `asyncUploadUser` that will call these two functions and return an object with the following format:
+
+```javascript
 {
   photo: response_from_uploadPhoto_function,
   user: response_from_createUser_function,
 }
+```
+
 If one of the async function fails, return an empty object. Example:
 
+```javascript
 {
   photo: null,
   user: null,
 }
+```
+
+```bash
 bob@dylan:~$ cat 100-main.js
 import asyncUploadUser from "./100-await";
 
@@ -515,8 +572,9 @@ bob@dylan:~$ npm run dev 100-main.js
   user: { firstName: 'Guillaume', lastName: 'Salva' }
 }
 bob@dylan:~$
-Repo:
+```
 
+Repo:
 GitHub repository: alx-backend-javascript
 Directory: 0x01-ES6_promise
-File: 100-await.js
+File: `100-await.js`
