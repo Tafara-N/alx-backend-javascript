@@ -227,10 +227,11 @@ bob@dylan:~$
 - Directory: `0x00-ES6_basic`
 - File: 1-block-scoped.js
 
-2. Arrow functions
-mandatory
-Rewrite the following standard function to use ES6’s arrow syntax of the function add (it will be an anonymous function after)
+### 2. Arrow functions
 
+Rewrite the following standard function to use ES6’s arrow syntax of the function `add` (it will be an anonymous function after)
+
+```javascript
 export default function getNeighborhoodsList() {
   this.sanFranciscoNeighborhoods = ['SOMA', 'Union Square'];
 
@@ -240,8 +241,11 @@ export default function getNeighborhoodsList() {
     return self.sanFranciscoNeighborhoods;
   };
 }
+```
+
 Execution:
 
+```bash
 bob@dylan:~$ cat 2-main.js
 import getNeighborhoodsList from './2-arrow.js';
 
@@ -252,11 +256,12 @@ bob@dylan:~$
 bob@dylan:~$ npm run dev 2-main.js
 [ 'SOMA', 'Union Square', 'Noe Valley' ]
 bob@dylan:~$
-**Repo:**
+```
 
+**Repo:**
 - GitHub repository: `alx-backend-javascript`
 - Directory: `0x00-ES6_basic`
-- File: 2-arrow.js
+- File: `2-arrow.js`
 
 ### 3. Parameter defaults
 
