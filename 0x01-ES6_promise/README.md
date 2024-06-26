@@ -201,7 +201,7 @@ true
 bob@dylan:~$
 ```
 
-Repo:
+**Repo:**
 - GitHub repository: `alx-backend-javascript`
 - Directory: `0x01-ES6_promise`
 File: `0-promise.js`
@@ -242,7 +242,7 @@ Promise {
 bob@dylan:~$
 ```
 
-Repo:
+**Repo:**
 - GitHub repository: `alx-backend-javascript`
 - Directory: `0x01-ES6_promise`
 File: `1-promise.js`
@@ -276,7 +276,7 @@ Got a response from the API
 bob@dylan:~$
 ```
 
-Repo:
+**Repo:**
 - GitHub repository: `alx-backend-javascript`
 - Directory: `0x01-ES6_promise`
 File: `2-then.js`
@@ -305,7 +305,7 @@ photo-profile-1 Guillaume Salva
 bob@dylan:~$
 ```
 
-Repo:
+**Repo:**
 - GitHub repository: `alx-backend-javascript`
 - Directory: `0x01-ES6_promise`
 File: `3-all.js`
@@ -340,7 +340,7 @@ Promise { { firstName: 'Bob', lastName: 'Dylan' } }
 bob@dylan:~$
 ```
 
-Repo:
+**Repo:**
 - GitHub repository: `alx-backend-javascript`
 - Directory: `0x01-ES6_promise`
 File: `4-user-promise.js`
@@ -372,7 +372,7 @@ Promise {
 bob@dylan:~$
 ```
 
-Repo:
+**Repo:**
 - GitHub repository: `alx-backend-javascript`
 - Directory: `0x01-ES6_promise`
 File: `5-photo-reject.js`
@@ -405,7 +405,7 @@ Promise { <pending> }
 bob@dylan:~$
 ```
 
-Repo:
+**Repo:**
 - GitHub repository: `alx-backend-javascript`
 - Directory: `0x01-ES6_promise`
 File: `6-final-user.js`
@@ -455,7 +455,7 @@ Downloading from FR is faster
 bob@dylan:~$
 ```
 
-Repo:
+**Repo:**
 - GitHub repository: `alx-backend-javascript`
 - Directory: `0x01-ES6_promise`
 File: `7-load_balancer.js`
@@ -490,7 +490,7 @@ bob@dylan:~$ npm run dev 8-main.js
 bob@dylan:~$
 ```
 
-Repo:
+**Repo:**
 - GitHub repository: `alx-backend-javascript`
 - Directory: `0x01-ES6_promise`
 File: `8-try.js`
@@ -527,7 +527,7 @@ bob@dylan:~$ npm run dev 9-main.js
 bob@dylan:~$
 ```
 
-Repo:
+**Repo:**
 - GitHub repository: `alx-backend-javascript`
 - Directory: `0x01-ES6_promise`
 File: `9-try.js`
@@ -574,7 +574,7 @@ bob@dylan:~$ npm run dev 100-main.js
 bob@dylan:~$
 ```
 
-Repo:
+**Repo:**
 - GitHub repository: `alx-backend-javascript`
 - Directory: `0x01-ES6_promise`
 File: `100-await.js`
