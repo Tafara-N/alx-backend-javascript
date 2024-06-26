@@ -399,8 +399,11 @@ export default function getBudgetObject(income, gdp, capita) {
 
   return budget;
 }
+```
+
 Execution:
 
+```bash
 bob@dylan:~$ cat 7-main.js
 import getBudgetObject from './7-getBudgetObject.js';
 
@@ -410,11 +413,12 @@ bob@dylan:~$
 bob@dylan:~$ npm run dev 7-main.js
 { income: 400, gdp: 700, capita: 900 }
 bob@dylan:~$
-**Repo:**
+```
 
+**Repo:**
 - GitHub repository: `alx-backend-javascript`
 - Directory: `0x00-ES6_basic`
-- File: 7-getBudgetObject.js
+- File: `7-getBudgetObject.js`
 
 ### 8. No need to create empty objects before adding in properties
 
