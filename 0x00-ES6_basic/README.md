@@ -258,12 +258,13 @@ bob@dylan:~$
 - Directory: `0x00-ES6_basic`
 - File: 2-arrow.js
 
-3. Parameter defaults
-mandatory
+### 3. Parameter defaults
+
 Condense the internals of the following function to 1 line - without changing the name of each function/variable.
 
-Hint: The key here to define default parameter values for the function parameters.
+*Hint*: The key here to define default parameter values for the function parameters.
 
+```javascript
 export default function getSumOfHoods(initialNumber, expansion1989, expansion2019) {
   if (expansion1989 === undefined) {
     expansion1989 = 89;
@@ -274,8 +275,11 @@ export default function getSumOfHoods(initialNumber, expansion1989, expansion201
   }
   return initialNumber + expansion1989 + expansion2019;
 }
+```
+
 Execution:
 
+```bash
 bob@dylan:~$ cat 3-main.js
 import getSumOfHoods from './3-default-parameter.js';
 
@@ -288,11 +292,12 @@ bob@dylan:~$ npm run dev 3-main.js
 56
 41
 bob@dylan:~$
-**Repo:**
+```
 
+**Repo:**
 - GitHub repository: `alx-backend-javascript`
 - Directory: `0x00-ES6_basic`
-- File: 3-default-parameter.js
+- File: `3-default-parameter.js`
 
 ### 4. Rest parameter syntax for functions
 
