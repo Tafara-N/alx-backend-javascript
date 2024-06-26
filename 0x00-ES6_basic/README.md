@@ -492,10 +492,11 @@ bob@dylan:~$
 - Directory: `0x00-ES6_basic`
 - File: 9-getFullBudget.js
 
-10. For...of Loops
-mandatory
-Rewrite the function appendToEachArrayValue to use ES6’s for...of operator. And don’t forget that var is not ES6-friendly.
+### 10. For...of Loops
 
+Rewrite the function `appendToEachArrayValue` to use ES6’s `for...of` operator. And don’t forget that `var` is not ES6-friendly.
+
+```javascript
 export default function appendToEachArrayValue(array, appendString) {
   for (var idx in array) {
     var value = array[idx];
@@ -504,8 +505,11 @@ export default function appendToEachArrayValue(array, appendString) {
 
   return array;
 }
+```
+
 Execution:
 
+```bash
 bob@dylan:~$ cat 10-main.js
 import appendToEachArrayValue from './10-loops.js';
 
@@ -515,11 +519,12 @@ bob@dylan:~$
 bob@dylan:~$ npm run dev 10-main.js
 [ 'correctly-appended', 'correctly-fixed', 'correctly-displayed' ]
 bob@dylan:~$
-**Repo:**
+```
 
+**Repo:**
 - GitHub repository: `alx-backend-javascript`
 - Directory: `0x00-ES6_basic`
-- File: 10-loops.js
+- File: `10-loops.js`
 
 ### 11. Iterator
 
