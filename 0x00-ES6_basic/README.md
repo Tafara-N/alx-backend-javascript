@@ -190,7 +190,7 @@ I prefer const when I can. But sometimes let is okay
 bob@dylan:~$
 **Repo:**
 
-GitHub repository: alx-backend-javascript
+- GitHub repository: `alx-backend-javascript`
 - Directory: `0x00-ES6_basic`
 - File: 0-constants.js
 
@@ -223,7 +223,7 @@ bob@dylan:~$ npm run dev 1-main.js
 bob@dylan:~$
 **Repo:**
 
-GitHub repository: alx-backend-javascript
+- GitHub repository: `alx-backend-javascript`
 - Directory: `0x00-ES6_basic`
 - File: 1-block-scoped.js
 
@@ -254,7 +254,7 @@ bob@dylan:~$ npm run dev 2-main.js
 bob@dylan:~$
 **Repo:**
 
-GitHub repository: alx-backend-javascript
+- GitHub repository: `alx-backend-javascript`
 - Directory: `0x00-ES6_basic`
 - File: 2-arrow.js
 
@@ -290,7 +290,7 @@ bob@dylan:~$ npm run dev 3-main.js
 bob@dylan:~$
 **Repo:**
 
-GitHub repository: alx-backend-javascript
+- GitHub repository: `alx-backend-javascript`
 - Directory: `0x00-ES6_basic`
 - File: 3-default-parameter.js
 
@@ -320,7 +320,7 @@ bob@dylan:~$ npm run dev 4-main.js
 bob@dylan:~$
 **Repo:**
 
-GitHub repository: alx-backend-javascript
+- GitHub repository: `alx-backend-javascript`
 - Directory: `0x00-ES6_basic`
 - File: 4-rest-parameter.js
 
@@ -347,7 +347,7 @@ bob@dylan:~$ npm run dev 5-main.js
 bob@dylan:~$
 **Repo:**
 
-GitHub repository: alx-backend-javascript
+- GitHub repository: `alx-backend-javascript`
 - Directory: `0x00-ES6_basic`
 - File: 5-spread-operator.js
 
@@ -380,7 +380,7 @@ As of 2017, it was the seventh-highest income county in the United States, with 
 bob@dylan:~$
 **Repo:**
 
-GitHub repository: alx-backend-javascript
+- GitHub repository: `alx-backend-javascript`
 - Directory: `0x00-ES6_basic`
 - File: 6-string-interpolation.js
 
@@ -412,7 +412,7 @@ bob@dylan:~$ npm run dev 7-main.js
 bob@dylan:~$
 **Repo:**
 
-GitHub repository: alx-backend-javascript
+- GitHub repository: `alx-backend-javascript`
 - Directory: `0x00-ES6_basic`
 - File: 7-getBudgetObject.js
 
@@ -447,7 +447,7 @@ bob@dylan:~$ npm run dev 8-main.js
 bob@dylan:~$
 **Repo:**
 
-GitHub repository: alx-backend-javascript
+- GitHub repository: `alx-backend-javascript`
 - Directory: `0x00-ES6_basic`
 - File: 8-getBudgetCurrentYear.js
 
@@ -488,7 +488,7 @@ $20
 bob@dylan:~$
 **Repo:**
 
-GitHub repository: alx-backend-javascript
+- GitHub repository: `alx-backend-javascript`
 - Directory: `0x00-ES6_basic`
 - File: 9-getFullBudget.js
 
@@ -517,7 +517,7 @@ bob@dylan:~$ npm run dev 10-main.js
 bob@dylan:~$
 **Repo:**
 
-GitHub repository: alx-backend-javascript
+- GitHub repository: `alx-backend-javascript`
 - Directory: `0x00-ES6_basic`
 - File: 10-loops.js
 
@@ -550,7 +550,7 @@ bob@dylan:~$ npm run dev 11-main.js
 bob@dylan:~$
 **Repo:**
 
-GitHub repository: alx-backend-javascript
+- GitHub repository: `alx-backend-javascript`
 - Directory: `0x00-ES6_basic`
 - File: 11-createEmployeesObject.js
 
@@ -597,7 +597,7 @@ bob@dylan:~$ npm run dev 12-main.js
 bob@dylan:~$
 **Repo:**
 
-GitHub repository: alx-backend-javascript
+- GitHub repository: `alx-backend-javascript`
 - Directory: `0x00-ES6_basic`
 - File: 12-createReportObject.js
 
@@ -639,7 +639,7 @@ Sylvie
 bob@dylan:~$
 **Repo:**
 
-GitHub repository: alx-backend-javascript
+- GitHub repository: `alx-backend-javascript`
 - Directory: `0x00-ES6_basic`
 - File: 100-createIteratorObject.js
 
@@ -702,6 +702,6 @@ Bob | Jane | Sylvie
 bob@dylan:~$
 **Repo:**
 
-GitHub repository: alx-backend-javascript
+- GitHub repository: `alx-backend-javascript`
 - Directory: `0x00-ES6_basic`
 - File: 101-iterateThroughObject.js
