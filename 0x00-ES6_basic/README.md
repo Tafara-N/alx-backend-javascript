@@ -294,20 +294,27 @@ bob@dylan:~$
 - Directory: `0x00-ES6_basic`
 - File: 3-default-parameter.js
 
-4. Rest parameter syntax for functions
-mandatory
+### 4. Rest parameter syntax for functions
+
 Modify the following function to return the number of arguments passed to it using the rest parameter syntax
 
+```javascript
 export default function returnHowManyArguments() {
 
 }
+```
+
 Example:
 
+```javascript
 > returnHowManyArguments("Hello", "Holberton", 2020);
 3
 >
+```
+
 Execution:
 
+```bash
 bob@dylan:~$ cat 4-main.js
 import returnHowManyArguments from './4-rest-parameter.js';
 
@@ -318,11 +325,12 @@ bob@dylan:~$ npm run dev 4-main.js
 1
 4
 bob@dylan:~$
-**Repo:**
+```
 
+**Repo:**
 - GitHub repository: `alx-backend-javascript`
 - Directory: `0x00-ES6_basic`
-- File: 4-rest-parameter.js
+- File: `4-rest-parameter.js`
 
 ### 5. The wonders of spread syntax
 
