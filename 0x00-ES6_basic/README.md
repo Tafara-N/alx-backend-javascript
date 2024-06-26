@@ -384,12 +384,13 @@ bob@dylan:~$
 - Directory: `0x00-ES6_basic`
 - File: 6-string-interpolation.js
 
-7. Object property value shorthand syntax
-mandatory
+### 7. Object property value shorthand syntax
+
 Notice how the keys and the variable names are the same?
 
-Modify the following function’s budget object to simply use the keyname instead.
+Modify the following function’s `budget` object to simply use the keyname instead.
 
+```javascript
 export default function getBudgetObject(income, gdp, capita) {
   const budget = {
     income: income,
