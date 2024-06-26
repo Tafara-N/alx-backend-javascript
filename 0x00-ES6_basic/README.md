@@ -194,10 +194,11 @@ bob@dylan:~$
 - Directory: `0x00-ES6_basic`
 - File: 0-constants.js
 
-1. Block Scope
-mandatory
-Given what you’ve read about var and hoisting, modify the variables inside the function taskBlock so that the variables aren’t overwritten inside the conditional block.
+### 1. Block Scope
 
+Given what you’ve read about `var` and hoisting, modify the variables inside the function taskBlock so that the variables aren’t overwritten inside the conditional block.
+
+```javascript
 export default function taskBlock(trueOrFalse) {
   var task = false;
   var task2 = true;
@@ -209,8 +210,11 @@ export default function taskBlock(trueOrFalse) {
 
   return [task, task2];
 }
+```
+
 Execution:
 
+```bash
 bob@dylan:~$ cat 1-main.js
 import taskBlock from './1-block-scoped.js';
 
@@ -221,11 +225,12 @@ bob@dylan:~$ npm run dev 1-main.js
 [ false, true ]
 [ false, true ]
 bob@dylan:~$
-**Repo:**
+```
 
+**Repo:**
 - GitHub repository: `alx-backend-javascript`
 - Directory: `0x00-ES6_basic`
-- File: 1-block-scoped.js
+- File: `1-block-scoped.js`
 
 ### 2. Arrow functions
 
