@@ -554,19 +554,22 @@ bob@dylan:~$
 - Directory: `0x00-ES6_basic`
 - File: 11-createEmployeesObject.js
 
-12. Let's create a report object
-mandatory
-Write a function named createReportObject whose parameter, employeesList, is the return value of the previous function createEmployeesObject.
+### 12. Let's create a report object
+
+Write a function named `createReportObject` whose parameter, `employeesList`, is the return value of the previous function `createEmployeesObject`.
 
 export default function createReportObject(employeesList) {
 
 }
-createReportObject should return an object containing the key allEmployees and a method property called getNumberOfDepartments.
+```
 
-allEmployees is a key that maps to an object containing the department name and a list of all the employees in that department. If you’re having trouble, use the spread syntax.
+`createReportObject` should return an object containing the key `allEmployees` and a method property called `getNumberOfDepartments`.
 
-The method property receives employeesList and returns the number of departments. I would suggest suggest thinking back to the ES6 method property syntax.
+`allEmployees` is a key that maps to an object containing the department name and a list of all the employees in that department. If you’re having trouble, use the spread syntax.
 
+The method property receives `employeesList` and returns the number of departments. I would suggest suggest thinking back to the ES6 method property syntax.
+
+```javascript
 {
   allEmployees: {
      engineering: [
@@ -575,8 +578,11 @@ The method property receives employeesList and returns the number of departments
      ],
   },
 };
+```
+
 Execution:
 
+```bash
 bob@dylan:~$ cat 12-main.js
 import createEmployeesObject from './11-createEmployeesObject.js';
 import createReportObject from './12-createReportObject.js';
@@ -595,11 +601,12 @@ bob@dylan:~$ npm run dev 12-main.js
 { engineering: [ 'Bob', 'Jane' ], marketing: [ 'Sylvie' ] }
 2
 bob@dylan:~$
-**Repo:**
+```
 
+**Repo:**
 - GitHub repository: `alx-backend-javascript`
 - Directory: `0x00-ES6_basic`
-- File: 12-createReportObject.js
+- File: `12-createReportObject.js`
 
 ### 13. Iterating through report objects
 
