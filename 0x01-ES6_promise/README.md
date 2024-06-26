@@ -202,7 +202,7 @@ bob@dylan:~$
 ```
 
 Repo:
-GitHub repository: alx-backend-javascript
+- GitHub repository: `alx-backend-javascript`
 Directory: 0x01-ES6_promise
 File: `0-promise.js`
 
@@ -243,7 +243,7 @@ bob@dylan:~$
 ```
 
 Repo:
-GitHub repository: alx-backend-javascript
+- GitHub repository: `alx-backend-javascript`
 Directory: 0x01-ES6_promise
 File: `1-promise.js`
 
@@ -277,7 +277,7 @@ bob@dylan:~$
 ```
 
 Repo:
-GitHub repository: alx-backend-javascript
+- GitHub repository: `alx-backend-javascript`
 Directory: 0x01-ES6_promise
 File: `2-then.js`
 
@@ -306,7 +306,7 @@ bob@dylan:~$
 ```
 
 Repo:
-GitHub repository: alx-backend-javascript
+- GitHub repository: `alx-backend-javascript`
 Directory: 0x01-ES6_promise
 File: `3-all.js`
 
@@ -341,7 +341,7 @@ bob@dylan:~$
 ```
 
 Repo:
-GitHub repository: alx-backend-javascript
+- GitHub repository: `alx-backend-javascript`
 Directory: 0x01-ES6_promise
 File: `4-user-promise.js`
 
@@ -373,7 +373,7 @@ bob@dylan:~$
 ```
 
 Repo:
-GitHub repository: alx-backend-javascript
+- GitHub repository: `alx-backend-javascript`
 Directory: 0x01-ES6_promise
 File: `5-photo-reject.js`
 
@@ -406,7 +406,7 @@ bob@dylan:~$
 ```
 
 Repo:
-GitHub repository: alx-backend-javascript
+- GitHub repository: `alx-backend-javascript`
 Directory: 0x01-ES6_promise
 File: `6-final-user.js`
 
@@ -456,7 +456,7 @@ bob@dylan:~$
 ```
 
 Repo:
-GitHub repository: alx-backend-javascript
+- GitHub repository: `alx-backend-javascript`
 Directory: 0x01-ES6_promise
 File: `7-load_balancer.js`
 
@@ -491,7 +491,7 @@ bob@dylan:~$
 ```
 
 Repo:
-GitHub repository: alx-backend-javascript
+- GitHub repository: `alx-backend-javascript`
 Directory: 0x01-ES6_promise
 File: `8-try.js`
 
@@ -528,7 +528,7 @@ bob@dylan:~$
 ```
 
 Repo:
-GitHub repository: alx-backend-javascript
+- GitHub repository: `alx-backend-javascript`
 Directory: 0x01-ES6_promise
 File: `9-try.js`
 
@@ -575,6 +575,6 @@ bob@dylan:~$
 ```
 
 Repo:
-GitHub repository: alx-backend-javascript
+- GitHub repository: `alx-backend-javascript`
 Directory: 0x01-ES6_promise
 File: `100-await.js`
