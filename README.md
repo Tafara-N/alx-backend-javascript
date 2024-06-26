@@ -14,6 +14,11 @@
 - [Default parameters](https://intranet.alxswe.com/rltoken/kbw9gMO6sdeOKAY23SYVgA)
 - [Rest parameter](https://intranet.alxswe.com/rltoken/erZfCvacuGVk9z1CQlJvYQ)
 - [Javascript ES6 — Iterables and Iterators](https://intranet.alxswe.com/rltoken/k4hZsX3vRfX2FkAithvjoA)
+- [Promise](https://intranet.alxswe.com/rltoken/j_0FTFbkTg42JMcAbNPOVQ)
+- [JavaScript Promise: An introduction](https://intranet.alxswe.com/rltoken/2Q2LzNFokcUwpA2u3FKG6Q)
+- [Await](https://intranet.alxswe.com/rltoken/UXb3S2PMBe-SLJ55isMcow)
+- [Async](https://intranet.alxswe.com/rltoken/_K0C7pgEjwaIzU9RpwCb8g)
+- [Throw / Try](https://intranet.alxswe.com/rltoken/UTjDgvKk5l892Xslh0vqcQ)
 
 # Learning Objectives
 At the end of this project, you are expected to be able to [explain to anyone](https://intranet.alxswe.com/rltoken/KDGvEqVWIsvOQfCcwDNHNg), **without the help of Google:**
@@ -27,6 +32,12 @@ At the end of this project, you are expected to be able to [explain to anyone](h
 - String templating in ES6
 - Object creation and their properties in ES6
 - Iterators and for-of loops
+- Promises (how, why, and what)
+- How to use the `then`, `resolve`, `catch` methods
+- How to use every method of the Promise object
+- Throw / Try
+- The await operator
+- How to use an `async` function
 
 # Requirements
 
@@ -108,6 +119,27 @@ module.exports = {
 };
 ```
 
+`utils.js`
+
+Use when you get to tasks requiring `uploadPhoto` and `createUser`.
+
+```javascript
+export function uploadPhoto() {
+  return Promise.resolve({
+    status: 200,
+    body: 'photo-profile-1',
+  });
+}
+
+
+export function createUser() {
+  return Promise.resolve({
+    firstName: 'Guillaume',
+    lastName: 'Salva',
+  });
+}
+```
+
 `.eslintrc.js`
 
 ```javascript
@@ -146,4 +178,28 @@ module.exports = {
    }
  ]
 };
+```
+
+# and…
+
+Don’t forget to run `$ npm install` when you have the `package.json`
+
+# Response Data Format
+
+`uploadPhoto` returns a response with the format
+
+```javascript
+{
+  status: 200,
+  body: 'photo-profile-1',
+}
+```
+
+`createUser` returns a response with the format
+
+```javascript
+{
+  firstName: 'Guillaume',
+  lastName: 'Salva',
+}
 ```
