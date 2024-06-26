@@ -182,11 +182,13 @@ Don’t forget to run `$ npm install` when you have the `package.json`
 }
 ```
 
-# Tasks
-0. Keep every promise you make and only make promises you can keep
-mandatory
-Return a Promise using this prototype function getResponseFromAPI()
+## Tasks
 
+### 0. Keep every promise you make and only make promises you can keep
+
+Return a Promise using this prototype function `getResponseFromAPI()`
+
+```javascript
 bob@dylan:~$ cat 0-main.js
 import getResponseFromAPI from "./0-promise.js";
 
@@ -197,11 +199,12 @@ bob@dylan:~$
 bob@dylan:~$ npm run dev 0-main.js
 true
 bob@dylan:~$
-Repo:
+```
 
+Repo:
 GitHub repository: alx-backend-javascript
 Directory: 0x01-ES6_promise
-File: 0-promise.js
+File: `0-promise.js`
 
 1. Don't make a promise...if you know you can't keep it
 mandatory
