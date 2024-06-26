@@ -204,7 +204,7 @@ bob@dylan:~$
 **Repo:**
 - GitHub repository: `alx-backend-javascript`
 - Directory: `0x01-ES6_promise`
-File: `0-promise.js`
+- File: `0-promise.js`
 
 ### 1. Don't make a promise...if you know you can't keep it
 
@@ -245,7 +245,7 @@ bob@dylan:~$
 **Repo:**
 - GitHub repository: `alx-backend-javascript`
 - Directory: `0x01-ES6_promise`
-File: `1-promise.js`
+- File: `1-promise.js`
 
 ### 2. Catch me if you can!
 
@@ -279,7 +279,7 @@ bob@dylan:~$
 **Repo:**
 - GitHub repository: `alx-backend-javascript`
 - Directory: `0x01-ES6_promise`
-File: `2-then.js`
+- File: `2-then.js`
 
 ### 3. Handle multiple successful promises
 
@@ -308,7 +308,7 @@ bob@dylan:~$
 **Repo:**
 - GitHub repository: `alx-backend-javascript`
 - Directory: `0x01-ES6_promise`
-File: `3-all.js`
+- File: `3-all.js`
 
 ### 4. Simple promise
 
@@ -343,7 +343,7 @@ bob@dylan:~$
 **Repo:**
 - GitHub repository: `alx-backend-javascript`
 - Directory: `0x01-ES6_promise`
-File: `4-user-promise.js`
+- File: `4-user-promise.js`
 
 ### 5. Reject the promises
 
@@ -375,7 +375,7 @@ bob@dylan:~$
 **Repo:**
 - GitHub repository: `alx-backend-javascript`
 - Directory: `0x01-ES6_promise`
-File: `5-photo-reject.js`
+- File: `5-photo-reject.js`
 
 ### 6. Handle multiple promises
 
@@ -408,7 +408,7 @@ bob@dylan:~$
 **Repo:**
 - GitHub repository: `alx-backend-javascript`
 - Directory: `0x01-ES6_promise`
-File: `6-final-user.js`
+- File: `6-final-user.js`
 
 ### 7. Load balancer
 
@@ -458,7 +458,7 @@ bob@dylan:~$
 **Repo:**
 - GitHub repository: `alx-backend-javascript`
 - Directory: `0x01-ES6_promise`
-File: `7-load_balancer.js`
+- File: `7-load_balancer.js`
 
 ### 8. Throw error / try catch
 
@@ -493,7 +493,7 @@ bob@dylan:~$
 **Repo:**
 - GitHub repository: `alx-backend-javascript`
 - Directory: `0x01-ES6_promise`
-File: `8-try.js`
+- File: `8-try.js`
 
 ### 9. Throw an error
 
@@ -530,7 +530,7 @@ bob@dylan:~$
 **Repo:**
 - GitHub repository: `alx-backend-javascript`
 - Directory: `0x01-ES6_promise`
-File: `9-try.js`
+- File: `9-try.js`
 
 ### 10. Await / Async
 
@@ -577,4 +577,4 @@ bob@dylan:~$
 **Repo:**
 - GitHub repository: `alx-backend-javascript`
 - Directory: `0x01-ES6_promise`
-File: `100-await.js`
+- File: `100-await.js`
