@@ -156,12 +156,14 @@ Don’t forget to run `npm install` from the terminal of your project folder to 
 
 ## Tasks
 
-0. Const or let?
-mandatory
+### 0. Const or let?
+
 Modify
 
-function taskFirst to instantiate variables using const
-function taskNext to instantiate variables using let
+- function `taskFirst` to instantiate variables using `const`
+- function `taskNext` to instantiate variables using `let`
+
+```javascript
 export function taskFirst() {
   var task = 'I prefer const when I can.';
   return task;
@@ -177,8 +179,11 @@ export function taskNext() {
 
   return combination;
 }
+```
+
 Execution example:
 
+```bash
 bob@dylan:~$ cat 0-main.js
 import { taskFirst, taskNext } from './0-constants.js';
 
@@ -188,11 +193,12 @@ bob@dylan:~$
 bob@dylan:~$ npm run dev 0-main.js
 I prefer const when I can. But sometimes let is okay
 bob@dylan:~$
-**Repo:**
+```
 
+**Repo:**
 - GitHub repository: `alx-backend-javascript`
 - Directory: `0x00-ES6_basic`
-- File: 0-constants.js
+- File: `0-constants.js`
 
 ### 1. Block Scope
 
