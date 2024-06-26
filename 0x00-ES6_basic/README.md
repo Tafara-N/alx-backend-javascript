@@ -601,17 +601,21 @@ bob@dylan:~$
 - Directory: `0x00-ES6_basic`
 - File: 12-createReportObject.js
 
-13. Iterating through report objects
-#advanced
-Write a function named createIteratorObject, that will take into argument a report Object created with the previous function createReportObject.
+### 13. Iterating through report objects
+
+Write a function named `createIteratorObject`, that will take into argument a report Object created with the previous function `createReportObject`.
 
 This function will return an iterator to go through every employee in every department.
 
+```javascript
 export default function createIteratorObject(report) {
 
 }
+```
+
 Execution:
 
+```bash
 bob@dylan:~$ cat 100-main.js
 import createIteratorObject from "./100-createIteratorObject.js";
 
@@ -637,11 +641,12 @@ Bob
 Jane
 Sylvie
 bob@dylan:~$
-**Repo:**
+```
 
+**Repo:**
 - GitHub repository: `alx-backend-javascript`
 - Directory: `0x00-ES6_basic`
-- File: 100-createIteratorObject.js
+- File: `100-createIteratorObject.json`
 
 ### 14. Iterate through object
 
@@ -715,4 +720,4 @@ bob@dylan:~$
 **Repo:**
 - GitHub repository: `alx-backend-javascript`
 - Directory: `0x00-ES6_basic`
-- File: 101-iterateThroughObject.js
+- File: `101-iterateThroughObject.js`
