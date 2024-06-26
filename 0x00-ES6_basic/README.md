@@ -416,10 +416,11 @@ bob@dylan:~$
 - Directory: `0x00-ES6_basic`
 - File: 7-getBudgetObject.js
 
-8. No need to create empty objects before adding in properties
-mandatory
-Rewrite the getBudgetForCurrentYear function to use ES6 computed property names on the budget object
+### 8. No need to create empty objects before adding in properties
 
+Rewrite the `getBudgetForCurrentYear` function to use ES6 computed property names on the `budget` object
+
+```javascript
 function getCurrentYear() {
   const date = new Date();
   return date.getFullYear();
@@ -434,8 +435,11 @@ export default function getBudgetForCurrentYear(income, gdp, capita) {
 
   return budget;
 }
+```
+
 Execution:
 
+```bash
 bob@dylan:~$ cat 8-main.js
 import getBudgetForCurrentYear from './8-getBudgetCurrentYear.js';
 
@@ -445,11 +449,12 @@ bob@dylan:~$
 bob@dylan:~$ npm run dev 8-main.js
 { 'income-2021': 2100, 'gdp-2021': 5200, 'capita-2021': 1090 }
 bob@dylan:~$
-**Repo:**
+```
 
+**Repo:**
 - GitHub repository: `alx-backend-javascript`
 - Directory: `0x00-ES6_basic`
-- File: 8-getBudgetCurrentYear.js
+- File: `8-getBudgetCurrentYear.js`
 
 ### 9. ES6 method properties
 
