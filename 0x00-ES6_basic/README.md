@@ -188,7 +188,7 @@ bob@dylan:~$
 bob@dylan:~$ npm run dev 0-main.js
 I prefer const when I can. But sometimes let is okay
 bob@dylan:~$
-Repo:
+**Repo:**
 
 GitHub repository: alx-backend-javascript
 Directory: 0x00-ES6_basic
@@ -221,7 +221,7 @@ bob@dylan:~$ npm run dev 1-main.js
 [ false, true ]
 [ false, true ]
 bob@dylan:~$
-Repo:
+**Repo:**
 
 GitHub repository: alx-backend-javascript
 Directory: 0x00-ES6_basic
@@ -252,7 +252,7 @@ bob@dylan:~$
 bob@dylan:~$ npm run dev 2-main.js
 [ 'SOMA', 'Union Square', 'Noe Valley' ]
 bob@dylan:~$
-Repo:
+**Repo:**
 
 GitHub repository: alx-backend-javascript
 Directory: 0x00-ES6_basic
@@ -288,7 +288,7 @@ bob@dylan:~$ npm run dev 3-main.js
 56
 41
 bob@dylan:~$
-Repo:
+**Repo:**
 
 GitHub repository: alx-backend-javascript
 Directory: 0x00-ES6_basic
@@ -318,7 +318,7 @@ bob@dylan:~$ npm run dev 4-main.js
 1
 4
 bob@dylan:~$
-Repo:
+**Repo:**
 
 GitHub repository: alx-backend-javascript
 Directory: 0x00-ES6_basic
@@ -345,7 +345,7 @@ bob@dylan:~$ npm run dev 5-main.js
   'l', 'l', 'o'
 ]
 bob@dylan:~$
-Repo:
+**Repo:**
 
 GitHub repository: alx-backend-javascript
 Directory: 0x00-ES6_basic
@@ -378,7 +378,7 @@ bob@dylan:~$
 bob@dylan:~$ npm run dev 6-main.js
 As of 2017, it was the seventh-highest income county in the United States, with a per capita personal income of $119,868. As of 2015, San Francisco proper had a GDP of $154.2 billion, and a GDP per capita of $178,479.
 bob@dylan:~$
-Repo:
+**Repo:**
 
 GitHub repository: alx-backend-javascript
 Directory: 0x00-ES6_basic
@@ -410,7 +410,7 @@ bob@dylan:~$
 bob@dylan:~$ npm run dev 7-main.js
 { income: 400, gdp: 700, capita: 900 }
 bob@dylan:~$
-Repo:
+**Repo:**
 
 GitHub repository: alx-backend-javascript
 Directory: 0x00-ES6_basic
@@ -445,7 +445,7 @@ bob@dylan:~$
 bob@dylan:~$ npm run dev 8-main.js
 { 'income-2021': 2100, 'gdp-2021': 5200, 'capita-2021': 1090 }
 bob@dylan:~$
-Repo:
+**Repo:**
 
 GitHub repository: alx-backend-javascript
 Directory: 0x00-ES6_basic
@@ -486,7 +486,7 @@ bob@dylan:~$ npm run dev 9-main.js
 $20
 20 euros
 bob@dylan:~$
-Repo:
+**Repo:**
 
 GitHub repository: alx-backend-javascript
 Directory: 0x00-ES6_basic
@@ -515,7 +515,7 @@ bob@dylan:~$
 bob@dylan:~$ npm run dev 10-main.js
 [ 'correctly-appended', 'correctly-fixed', 'correctly-displayed' ]
 bob@dylan:~$
-Repo:
+**Repo:**
 
 GitHub repository: alx-backend-javascript
 Directory: 0x00-ES6_basic
@@ -548,7 +548,7 @@ bob@dylan:~$
 bob@dylan:~$ npm run dev 11-main.js
 { Software: [ 'Bob', 'Sylvie' ] }
 bob@dylan:~$
-Repo:
+**Repo:**
 
 GitHub repository: alx-backend-javascript
 Directory: 0x00-ES6_basic
@@ -595,7 +595,7 @@ bob@dylan:~$ npm run dev 12-main.js
 { engineering: [ 'Bob', 'Jane' ], marketing: [ 'Sylvie' ] }
 2
 bob@dylan:~$
-Repo:
+**Repo:**
 
 GitHub repository: alx-backend-javascript
 Directory: 0x00-ES6_basic
@@ -637,7 +637,7 @@ Bob
 Jane
 Sylvie
 bob@dylan:~$
-Repo:
+**Repo:**
 
 GitHub repository: alx-backend-javascript
 Directory: 0x00-ES6_basic
@@ -700,7 +700,7 @@ bob@dylan:~$
 bob@dylan:~$ npm run dev 101-main.js
 Bob | Jane | Sylvie
 bob@dylan:~$
-Repo:
+**Repo:**
 
 GitHub repository: alx-backend-javascript
 Directory: 0x00-ES6_basic
