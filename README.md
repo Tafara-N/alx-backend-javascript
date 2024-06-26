@@ -5,8 +5,6 @@
 - [JavaScript programming](https://intranet.alxswe.com/concepts/852)
 - [Software Linter](https://intranet.alxswe.com/concepts/542)
 
-![Arrow Functions](arrow_functions.jpeg)
-
 # Resources
 
 **Read or watch:**
