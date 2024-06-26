@@ -643,15 +643,19 @@ bob@dylan:~$
 - Directory: `0x00-ES6_basic`
 - File: 100-createIteratorObject.js
 
-14. Iterate through object
-#advanced
-Finally, write a function named iterateThroughObject. The function’s parameter reportWithIterator is the return value from createIteratorObject.
+### 14. Iterate through object
 
+Finally, write a function named `iterateThroughObject`. The function’s parameter `reportWithIterator` is the return value from `createIteratorObject`.
+
+```javascript
  export default function iterateThroughObject(reportWithIterator) {
 
  }
-It should return every employee name in a string, separated by |
+```
 
+It should return every employee name in a string, separated by `|`
+
+```javascript
 {
   allEmployees: {
      engineering: [
@@ -661,12 +665,15 @@ It should return every employee name in a string, separated by |
   },
   ...
 };
-Should return John Doe | Guillaume Salva
+```
 
-Reminder - the functions will be imported by the test suite.
+Should return `John Doe | Guillaume Salva`
+
+Reminder - the functions will be *imported* by the test suite.
 
 Full example:
 
+```javascript
 > employees = {
       ...createEmployeesObject('engineering', engineering),
       ...createEmployeesObject('design', design),
@@ -677,8 +684,11 @@ Full example:
 > iterateThroughObject(reportWithIterator)
 'John Doe | Guillaume Salva | Kanye East | Jay Li'
 >
+```
+
 Execution:
 
+```bash
 bob@dylan:~$ cat 101-main.js
 import createEmployeesObject from "./11-createEmployeesObject.js";
 import createReportObject from './12-createReportObject.js';
@@ -700,8 +710,9 @@ bob@dylan:~$
 bob@dylan:~$ npm run dev 101-main.js
 Bob | Jane | Sylvie
 bob@dylan:~$
-**Repo:**
+```
 
+**Repo:**
 - GitHub repository: `alx-backend-javascript`
 - Directory: `0x00-ES6_basic`
 - File: 101-iterateThroughObject.js
