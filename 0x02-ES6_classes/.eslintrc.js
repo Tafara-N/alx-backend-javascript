@@ -4,10 +4,7 @@ module.exports = {
     es6: true,
     jest: true,
   },
-  extends: [
-    'airbnb-base',
-    'plugin:jest/all',
-  ],
+  extends: ['airbnb-base', 'plugin:jest/all'],
   globals: {
     Atomics: 'readonly',
     SharedArrayBuffer: 'readonly',
@@ -18,6 +15,8 @@ module.exports = {
   },
   plugins: ['jest'],
   rules: {
+    'max-classes-per-file': 'off',
+    'no-underscore-dangle': 'off',
     'no-console': 'off',
     'no-shadow': 'off',
     'no-restricted-syntax': [
@@ -26,10 +25,10 @@ module.exports = {
       'WithStatement',
     ],
   },
-  overrides:[
+  overrides: [
     {
       files: ['*.js'],
       excludedFiles: 'babel.config.js',
-    }
-  ]
+    },
+  ],
 };
