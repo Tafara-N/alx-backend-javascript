@@ -162,7 +162,7 @@ bob@dylan:~$
 ```
 
 **Repo:**
-GitHub repository: alx-backend-javascript
+- GitHub repository: `alx-backend-javascript`
 Directory: 0x02-ES6_classes
 - File: `0-classroom.js`
 
@@ -189,7 +189,7 @@ bob@dylan:~$
 ```
 
 **Repo:**
-GitHub repository: alx-backend-javascript
+- GitHub repository: `alx-backend-javascript`
 Directory: 0x02-ES6_classes
 - File: `1-make_classrooms.js`
 
@@ -244,7 +244,7 @@ bob@dylan:~$
 ```
 
 **Repo:**
-GitHub repository: alx-backend-javascript
+- GitHub repository: `alx-backend-javascript`
 Directory: 0x02-ES6_classes
 - File: `2-hbtn_course.js`
 
@@ -273,7 +273,7 @@ bob@dylan:~$
 ```
 
 **Repo:**
-GitHub repository: alx-backend-javascript
+- GitHub repository: `alx-backend-javascript`
 Directory: 0x02-ES6_classes
 - File: `3-currency.js`
 
@@ -311,7 +311,7 @@ bob@dylan:~$
 ```
 
 **Repo:**
-GitHub repository: alx-backend-javascript
+- GitHub repository: `alx-backend-javascript`
 Directory: 0x02-ES6_classes
 - File: `4-pricing.js`
 
@@ -351,7 +351,7 @@ bob@dylan:~$
 ```
 
 **Repo:**
-GitHub repository: alx-backend-javascript
+- GitHub repository: `alx-backend-javascript`
 Directory: 0x02-ES6_classes
 - File: `5-building.js`
 
@@ -386,7 +386,7 @@ bob@dylan:~$
 ```
 
 **Repo:**
-GitHub repository: alx-backend-javascript
+- GitHub repository: `alx-backend-javascript`
 Directory: 0x02-ES6_classes
 - File: `6-sky_high.js`
 
@@ -416,7 +416,7 @@ bob@dylan:~$
 ```
 
 **Repo:**
-GitHub repository: alx-backend-javascript
+- GitHub repository: `alx-backend-javascript`
 Directory: 0x02-ES6_classes
 - File: `7-airport.js`
 
@@ -447,7 +447,7 @@ bob@dylan:~$
 ```
 
 **Repo:**
-GitHub repository: alx-backend-javascript
+- GitHub repository: `alx-backend-javascript`
 Directory: 0x02-ES6_classes
 - File: `8-hbtn_class.js`
 
@@ -558,7 +558,7 @@ bob@dylan:~$
 ```
 
 **Repo:**
-GitHub repository: alx-backend-javascript
+- GitHub repository: `alx-backend-javascript`
 Directory: 0x02-ES6_classes
 - File: `9-hoisting.js`
 
@@ -603,7 +603,7 @@ bob@dylan:~$
 ```
 
 **Repo:**
-GitHub repository: alx-backend-javascript
+- GitHub repository: `alx-backend-javascript`
 Directory: 0x02-ES6_classes
 - File: `10-car.js`
 
@@ -644,6 +644,6 @@ bob@dylan:~$
 ```
 
 **Repo:**
-GitHub repository: alx-backend-javascript
+- GitHub repository: `alx-backend-javascript`
 Directory: 0x02-ES6_classes
 - File: `100-evcar.js`
