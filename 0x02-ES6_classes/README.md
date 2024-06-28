@@ -161,7 +161,7 @@ bob@dylan:~$ npm run dev 0-main.js
 bob@dylan:~$
 ```
 
-Repo:
+**Repo:**
 GitHub repository: alx-backend-javascript
 Directory: 0x02-ES6_classes
 - File: `0-classroom.js`
@@ -188,7 +188,7 @@ bob@dylan:~$ npm run dev 1-main.js
 bob@dylan:~$
 ```
 
-Repo:
+**Repo:**
 GitHub repository: alx-backend-javascript
 Directory: 0x02-ES6_classes
 - File: `1-make_classrooms.js`
@@ -243,7 +243,7 @@ TypeError: Length must be a number
 bob@dylan:~$
 ```
 
-Repo:
+**Repo:**
 GitHub repository: alx-backend-javascript
 Directory: 0x02-ES6_classes
 - File: `2-hbtn_course.js`
@@ -272,7 +272,7 @@ Dollars ($)
 bob@dylan:~$
 ```
 
-Repo:
+**Repo:**
 GitHub repository: alx-backend-javascript
 Directory: 0x02-ES6_classes
 - File: `3-currency.js`
@@ -310,7 +310,7 @@ Pricing {
 bob@dylan:~$
 ```
 
-Repo:
+**Repo:**
 GitHub repository: alx-backend-javascript
 Directory: 0x02-ES6_classes
 - File: `4-pricing.js`
@@ -350,7 +350,7 @@ Error: Class extending Building must override evacuationWarningMessage
 bob@dylan:~$
 ```
 
-Repo:
+**Repo:**
 GitHub repository: alx-backend-javascript
 Directory: 0x02-ES6_classes
 - File: `5-building.js`
@@ -385,7 +385,7 @@ Evacuate slowly the 60 floors
 bob@dylan:~$
 ```
 
-Repo:
+**Repo:**
 GitHub repository: alx-backend-javascript
 Directory: 0x02-ES6_classes
 - File: `6-sky_high.js`
@@ -415,7 +415,7 @@ Airport [SFO] { _name: 'San Francisco Airport', _code: 'SFO' }
 bob@dylan:~$
 ```
 
-Repo:
+**Repo:**
 GitHub repository: alx-backend-javascript
 Directory: 0x02-ES6_classes
 - File: `7-airport.js`
@@ -446,7 +446,7 @@ Mezzanine
 bob@dylan:~$
 ```
 
-Repo:
+**Repo:**
 GitHub repository: alx-backend-javascript
 Directory: 0x02-ES6_classes
 - File: `8-hbtn_class.js`
@@ -557,7 +557,7 @@ bob@dylan:~$ npm run dev 9-main.js
 bob@dylan:~$
 ```
 
-Repo:
+**Repo:**
 GitHub repository: alx-backend-javascript
 Directory: 0x02-ES6_classes
 - File: `9-hoisting.js`
@@ -602,7 +602,7 @@ false
 bob@dylan:~$
 ```
 
-Repo:
+**Repo:**
 GitHub repository: alx-backend-javascript
 Directory: 0x02-ES6_classes
 - File: `10-car.js`
@@ -643,7 +643,7 @@ Car { _brand: undefined, _motor: undefined, _color: undefined }
 bob@dylan:~$
 ```
 
-Repo:
+**Repo:**
 GitHub repository: alx-backend-javascript
 Directory: 0x02-ES6_classes
 - File: `100-evcar.js`
