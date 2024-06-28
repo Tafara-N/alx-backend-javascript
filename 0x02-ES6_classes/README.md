@@ -163,7 +163,7 @@ bob@dylan:~$
 
 **Repo:**
 - GitHub repository: `alx-backend-javascript`
-Directory: 0x02-ES6_classes
+- Directory: `0x02-ES6_classes`
 - File: `0-classroom.js`
 
 ### 1. Let's make some classrooms
@@ -190,7 +190,7 @@ bob@dylan:~$
 
 **Repo:**
 - GitHub repository: `alx-backend-javascript`
-Directory: 0x02-ES6_classes
+- Directory: `0x02-ES6_classes`
 - File: `1-make_classrooms.js`
 
 ### 2. A Course, Getters, and Setters
@@ -245,7 +245,7 @@ bob@dylan:~$
 
 **Repo:**
 - GitHub repository: `alx-backend-javascript`
-Directory: 0x02-ES6_classes
+- Directory: `0x02-ES6_classes`
 - File: `2-hbtn_course.js`
 
 ### 3. Methods, static methods, computed methods names..... MONEY
@@ -274,7 +274,7 @@ bob@dylan:~$
 
 **Repo:**
 - GitHub repository: `alx-backend-javascript`
-Directory: 0x02-ES6_classes
+- Directory: `0x02-ES6_classes`
 - File: `3-currency.js`
 
 ### 4. Pricing
@@ -312,7 +312,7 @@ bob@dylan:~$
 
 **Repo:**
 - GitHub repository: `alx-backend-javascript`
-Directory: 0x02-ES6_classes
+- Directory: `0x02-ES6_classes`
 - File: `4-pricing.js`
 
 ### 5. A Building
@@ -352,7 +352,7 @@ bob@dylan:~$
 
 **Repo:**
 - GitHub repository: `alx-backend-javascript`
-Directory: 0x02-ES6_classes
+- Directory: `0x02-ES6_classes`
 - File: `5-building.js`
 
 ### 6. Inheritance
@@ -387,7 +387,7 @@ bob@dylan:~$
 
 **Repo:**
 - GitHub repository: `alx-backend-javascript`
-Directory: 0x02-ES6_classes
+- Directory: `0x02-ES6_classes`
 - File: `6-sky_high.js`
 
 ### 7. Airport
@@ -417,7 +417,7 @@ bob@dylan:~$
 
 **Repo:**
 - GitHub repository: `alx-backend-javascript`
-Directory: 0x02-ES6_classes
+- Directory: `0x02-ES6_classes`
 - File: `7-airport.js`
 
 ### 8. Primitive - Holberton Class
@@ -448,7 +448,7 @@ bob@dylan:~$
 
 **Repo:**
 - GitHub repository: `alx-backend-javascript`
-Directory: 0x02-ES6_classes
+- Directory: `0x02-ES6_classes`
 - File: `8-hbtn_class.js`
 
 ### 9. Hoisting
@@ -559,7 +559,7 @@ bob@dylan:~$
 
 **Repo:**
 - GitHub repository: `alx-backend-javascript`
-Directory: 0x02-ES6_classes
+- Directory: `0x02-ES6_classes`
 - File: `9-hoisting.js`
 
 ### 10. Vroom
@@ -604,7 +604,7 @@ bob@dylan:~$
 
 **Repo:**
 - GitHub repository: `alx-backend-javascript`
-Directory: 0x02-ES6_classes
+- Directory: `0x02-ES6_classes`
 - File: `10-car.js`
 
 ### 11. EVCar
@@ -645,5 +645,5 @@ bob@dylan:~$
 
 **Repo:**
 - GitHub repository: `alx-backend-javascript`
-Directory: 0x02-ES6_classes
+- Directory: `0x02-ES6_classes`
 - File: `100-evcar.js`
