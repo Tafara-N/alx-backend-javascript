@@ -171,7 +171,7 @@ bob@dylan:~$
 ```
 
 **Repo:**
-GitHub repository: alx-backend-javascript
+- GitHub repository: `alx-backend-javascript`
 - Directory: `0x03-ES6_data_manipulation`
 File: `0-get_list_students.js`
 
@@ -201,7 +201,7 @@ bob@dylan:~$
 ```
 
 **Repo:**
-GitHub repository: alx-backend-javascript
+- GitHub repository: `alx-backend-javascript`
 - Directory: `0x03-ES6_data_manipulation`
 File: `1-get_list_student_ids.js`
 
@@ -232,7 +232,7 @@ bob@dylan:~$
 ```
 
 **Repo:**
-GitHub repository: alx-backend-javascript
+- GitHub repository: `alx-backend-javascript`
 - Directory: `0x03-ES6_data_manipulation`
 File: `2-get_students_by_loc.js`
 
@@ -261,7 +261,7 @@ bob@dylan:~$
 ```
 
 **Repo:**
-GitHub repository: alx-backend-javascript
+- GitHub repository: `alx-backend-javascript`
 - Directory: `0x03-ES6_data_manipulation`
 File: `3-get_ids_sum.js`
 
@@ -317,7 +317,7 @@ bob@dylan:~$
 ```
 
 **Repo:**
-GitHub repository: alx-backend-javascript
+- GitHub repository: `alx-backend-javascript`
 - Directory: `0x03-ES6_data_manipulation`
 File: `4-update_grade_by_city.js`
 
@@ -349,7 +349,7 @@ bob@dylan:~$
 ```
 
 **Repo:**
-GitHub repository: alx-backend-javascript
+- GitHub repository: `alx-backend-javascript`
 - Directory: `0x03-ES6_data_manipulation`
 File: `5-typed_arrays.js`
 
@@ -372,7 +372,7 @@ bob@dylan:~$
 ```
 
 **Repo:**
-GitHub repository: alx-backend-javascript
+- GitHub repository: `alx-backend-javascript`
 - Directory: `0x03-ES6_data_manipulation`
 File: `6-set.js`
 
@@ -399,7 +399,7 @@ bob@dylan:~$
 ```
 
 **Repo:**
-GitHub repository: alx-backend-javascript
+- GitHub repository: `alx-backend-javascript`
 - Directory: `0x03-ES6_data_manipulation`
 File: `7-has_array_values.js`
 
@@ -426,7 +426,7 @@ bob@dylan:~$
 ```
 
 **Repo:**
-GitHub repository: alx-backend-javascript
+- GitHub repository: `alx-backend-javascript`
 - Directory: `0x03-ES6_data_manipulation`
 File: `8-clean_set.js`
 
@@ -463,7 +463,7 @@ bob@dylan:~$
 ```
 
 **Repo:**
-GitHub repository: alx-backend-javascript
+- GitHub repository: `alx-backend-javascript`
 - Directory: `0x03-ES6_data_manipulation`
 File: `9-groceries_list.js`
 
@@ -506,7 +506,7 @@ bob@dylan:~$
 ```
 
 **Repo:**
-GitHub repository: alx-backend-javascript
+- GitHub repository: `alx-backend-javascript`
 - Directory: `0x03-ES6_data_manipulation`
 File: `10-update_uniq_items.js`
 
@@ -556,6 +556,6 @@ bob@dylan:~$
 ```
 
 **Repo:**
-GitHub repository: alx-backend-javascript
+- GitHub repository: `alx-backend-javascript`
 - Directory: `0x03-ES6_data_manipulation`
 File: `100-weak.js`
