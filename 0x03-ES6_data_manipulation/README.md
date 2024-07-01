@@ -173,7 +173,7 @@ bob@dylan:~$
 **Repo:**
 - GitHub repository: `alx-backend-javascript`
 - Directory: `0x03-ES6_data_manipulation`
-File: `0-get_list_students.js`
+- File: `0-get_list_students.js`
 
 ### 1. More mapping
 
@@ -203,7 +203,7 @@ bob@dylan:~$
 **Repo:**
 - GitHub repository: `alx-backend-javascript`
 - Directory: `0x03-ES6_data_manipulation`
-File: `1-get_list_student_ids.js`
+- File: `1-get_list_student_ids.js`
 
 ### 2. Filter
 
@@ -234,7 +234,7 @@ bob@dylan:~$
 **Repo:**
 - GitHub repository: `alx-backend-javascript`
 - Directory: `0x03-ES6_data_manipulation`
-File: `2-get_students_by_loc.js`
+- File: `2-get_students_by_loc.js`
 
 ### 3. Reduce
 
@@ -263,7 +263,7 @@ bob@dylan:~$
 **Repo:**
 - GitHub repository: `alx-backend-javascript`
 - Directory: `0x03-ES6_data_manipulation`
-File: `3-get_ids_sum.js`
+- File: `3-get_ids_sum.js`
 
 ### 4. Combine
 
@@ -319,7 +319,7 @@ bob@dylan:~$
 **Repo:**
 - GitHub repository: `alx-backend-javascript`
 - Directory: `0x03-ES6_data_manipulation`
-File: `4-update_grade_by_city.js`
+- File: `4-update_grade_by_city.js`
 
 ### 5. Typed Arrays
 
@@ -351,7 +351,7 @@ bob@dylan:~$
 **Repo:**
 - GitHub repository: `alx-backend-javascript`
 - Directory: `0x03-ES6_data_manipulation`
-File: `5-typed_arrays.js`
+- File: `5-typed_arrays.js`
 
 ### 6. Set data structure
 
@@ -374,7 +374,7 @@ bob@dylan:~$
 **Repo:**
 - GitHub repository: `alx-backend-javascript`
 - Directory: `0x03-ES6_data_manipulation`
-File: `6-set.js`
+- File: `6-set.js`
 
 ### 7. More set data structure
 
@@ -401,7 +401,7 @@ bob@dylan:~$
 **Repo:**
 - GitHub repository: `alx-backend-javascript`
 - Directory: `0x03-ES6_data_manipulation`
-File: `7-has_array_values.js`
+- File: `7-has_array_values.js`
 
 ### 8. Clean set
 
@@ -428,7 +428,7 @@ bob@dylan:~$
 **Repo:**
 - GitHub repository: `alx-backend-javascript`
 - Directory: `0x03-ES6_data_manipulation`
-File: `8-clean_set.js`
+- File: `8-clean_set.js`
 
 ### 9. Map data structure
 
@@ -465,7 +465,7 @@ bob@dylan:~$
 **Repo:**
 - GitHub repository: `alx-backend-javascript`
 - Directory: `0x03-ES6_data_manipulation`
-File: `9-groceries_list.js`
+- File: `9-groceries_list.js`
 
 ### 10. More map data structure
 
@@ -508,7 +508,7 @@ bob@dylan:~$
 **Repo:**
 - GitHub repository: `alx-backend-javascript`
 - Directory: `0x03-ES6_data_manipulation`
-File: `10-update_uniq_items.js`
+- File: `10-update_uniq_items.js`
 
 ### 11. Weak link data structure
 
@@ -558,4 +558,4 @@ bob@dylan:~$
 **Repo:**
 - GitHub repository: `alx-backend-javascript`
 - Directory: `0x03-ES6_data_manipulation`
-File: `100-weak.js`
+- File: `100-weak.js`
