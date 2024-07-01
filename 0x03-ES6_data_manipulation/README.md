@@ -198,14 +198,15 @@ GitHub repository: alx-backend-javascript
 Directory: 0x03-ES6_data_manipulation
 File: 1-get_list_student_ids.js
 
-2. Filter
-mandatory
-Create a function getStudentsByLocation that returns an array of objects who are located in a specific city.
+### 2. Filter
 
-It should accept a list of students (from getListStudents) and a city (string) as parameters.
+Create a function `getStudentsByLocation` that returns an array of objects who are located in a specific city.
 
-You must use the filter function on the array.
+It should accept a list of students (from `getListStudents`) and a `city` (string) as parameters.
 
+You must use the `filter` function on the array.
+
+```bash
 bob@dylan:~$ cat 2-main.js
 import getListStudents from "./0-get_list_students.js";
 import getStudentsByLocation from "./2-get_students_by_loc.js";
@@ -221,20 +222,22 @@ bob@dylan:~$ npm run dev 2-main.js
   { id: 5, firstName: 'Serena', location: 'San Francisco' }
 ]
 bob@dylan:~$
-**Repo:**
+```
 
+**Repo:**
 GitHub repository: alx-backend-javascript
 Directory: 0x03-ES6_data_manipulation
-File: 2-get_students_by_loc.js
+File: `2-get_students_by_loc.js`
 
-3. Reduce
-mandatory
-Create a function getStudentIdsSum that returns the sum of all the student ids.
+### 3. Reduce
 
-It should accept a list of students (from getListStudents) as a parameter.
+Create a function `getStudentIdsSum` that returns the sum of all the student ids.
 
-You must use the reduce function on the array.
+It should accept a list of students (from `getListStudents`) as a parameter.
 
+You must use the `reduce` function on the array.
+
+```bash
 bob@dylan:~$ cat 3-main.js
 import getListStudents from "./0-get_list_students.js";
 import getStudentIdsSum from "./3-get_ids_sum.js";
@@ -248,28 +251,33 @@ bob@dylan:~$
 bob@dylan:~$ npm run dev 3-main.js
 8
 bob@dylan:~$
-**Repo:**
+```
 
+**Repo:**
 GitHub repository: alx-backend-javascript
 Directory: 0x03-ES6_data_manipulation
-File: 3-get_ids_sum.js
+File: `3-get_ids_sum.js`
 
-4. Combine
-mandatory
-Create a function updateStudentGradeByCity that returns an array of students for a specific city with their new grade
+### 4. Combine
 
-It should accept a list of students (from getListStudents), a city (String), and newGrades (Array of “grade” objects) as parameters.
+Create a function `updateStudentGradeByCity` that returns an array of students for a specific city with their new grade
 
-newGrades is an array of objects with this format:
+It should accept a list of students (from `getListStudents`), a `city` (String), and `newGrades` (Array of “grade” objects) as parameters.
 
+`newGrades` is an array of objects with this format:
+
+```json
   {
     studentId: 31,
     grade: 78,
   }
-If a student doesn’t have grade in newGrades, the final grade should be N/A.
+```
 
-You must use filter and map combined.
+If a student doesn’t have grade in `newGrades`, the final grade should be `N/A`.
 
+You must use `filter` and `map` combined.
+
+```bash
 bob@dylan:~$ cat 4-main.js
 import getListStudents from "./0-get_list_students.js";
 import updateStudentGradeByCity from "./4-update_grade_by_city.js";
@@ -299,20 +307,22 @@ bob@dylan:~$ npm run dev 4-main.js
   { id: 5, firstName: 'Serena', location: 'San Francisco', grade: 97 }
 ]
 bob@dylan:~$
-**Repo:**
+```
 
+**Repo:**
 GitHub repository: alx-backend-javascript
 Directory: 0x03-ES6_data_manipulation
-File: 4-update_grade_by_city.js
+File: `4-update_grade_by_city.js`
 
-5. Typed Arrays
-mandatory
-Create a function named createInt8TypedArray that returns a new ArrayBuffer with an Int8 value at a specific position.
+### 5. Typed Arrays
 
-It should accept three arguments: length (Number), position (Number), and value (Number).
+Create a function named `createInt8TypedArray` that returns a new `ArrayBuffer` with an `Int8` value at a specific position.
 
-If adding the value is not possible the error Position outside range should be thrown.
+It should accept three arguments: `length` (Number), `position` (Number), and `value` (Number).
 
+If adding the value is not possible the error `Position outside range` should be thrown.
+
+```bash
 bob@dylan:~$ cat 5-main.js
 import createInt8TypedArray from "./5-typed_arrays.js";
 
@@ -329,18 +339,20 @@ DataView {
   }
 }
 bob@dylan:~$
-**Repo:**
+```
 
+**Repo:**
 GitHub repository: alx-backend-javascript
 Directory: 0x03-ES6_data_manipulation
-File: 5-typed_arrays.js
+File: `5-typed_arrays.js`
 
-6. Set data structure
-mandatory
-Create a function named setFromArray that returns a Set from an array.
+### 6. Set data structure
+
+Create a function named `setFromArray` that returns a `Set` from an array.
 
 It accepts an argument (Array, of any kind of element).
 
+```bash
 bob@dylan:~$ cat 6-main.js
 import setFromArray from "./6-set.js";
 
@@ -350,11 +362,12 @@ bob@dylan:~$
 bob@dylan:~$ npm run dev 6-main.js
 Set { 12, 32, 15, 78, 98 }
 bob@dylan:~$
-**Repo:**
+```
 
+**Repo:**
 GitHub repository: alx-backend-javascript
 Directory: 0x03-ES6_data_manipulation
-File: 6-set.js
+File: `6-set.js`
 
 ### 7. More set data structure
 
