@@ -356,12 +356,13 @@ GitHub repository: alx-backend-javascript
 Directory: 0x03-ES6_data_manipulation
 File: 6-set.js
 
-7. More set data structure
-mandatory
-Create a function named hasValuesFromArray that returns a boolean if all the elements in the array exist within the set.
+### 7. More set data structure
 
-It accepts two arguments: a set (Set) and an array (Array).
+Create a function named `hasValuesFromArray` that returns a boolean if all the elements in the array exist within the set.
 
+It accepts two arguments: a `set` (Set) and an `array` (Array).
+
+```bash
 bob@dylan:~$ cat 7-main.js
 import hasValuesFromArray from "./7-has_array_values.js";
 
@@ -375,20 +376,22 @@ true
 false
 false
 bob@dylan:~$
-**Repo:**
+```
 
+**Repo:**
 GitHub repository: alx-backend-javascript
 Directory: 0x03-ES6_data_manipulation
-File: 7-has_array_values.js
+File: `7-has_array_values.js`
 
-8. Clean set
-mandatory
-Create a function named cleanSet that returns a string of all the set values that start with a specific string (startString).
+### 8. Clean set
 
-It accepts two arguments: a set (Set) and a startString (String).
+Create a function named `cleanSet` that returns a string of all the set values that start with a specific string (`startString`).
 
-When a value starts with startString you only append the rest of the string. The string contains all the values of the set separated by -.
+It accepts two arguments: a set (Set) and a `startString` (String).
 
+When a value starts with `startString` you only append the rest of the string. The string contains all the values of the set separated by `-`.
+
+```bash
 bob@dylan:~$ cat 8-main.js
 import cleanSet from "./8-clean_set.js";
 
@@ -400,23 +403,28 @@ bob@dylan:~$ npm run dev 8-main.js
 jovi-aparte-appetit
 
 bob@dylan:~$
-**Repo:**
+```
 
+**Repo:**
 GitHub repository: alx-backend-javascript
 Directory: 0x03-ES6_data_manipulation
-File: 8-clean_set.js
+File: `8-clean_set.js`
 
-9. Map data structure
-mandatory
-Create a function named groceriesList that returns a map of groceries with the following items (name, quantity):
+### 9. Map data structure
 
+Create a function named `groceriesList` that returns a map of groceries with the following items (name, quantity):
+
+```javascript
 Apples, 10
 Tomatoes, 10
 Pasta, 1
 Rice, 1
 Banana, 5
+```
+
 Result:
 
+```bash
 bob@dylan:~$ cat 9-main.js
 import groceriesList from "./9-groceries_list.js";
 
@@ -432,20 +440,22 @@ Map {
   'Banana' => 5
 }
 bob@dylan:~$
-**Repo:**
+```
 
+**Repo:**
 GitHub repository: alx-backend-javascript
 Directory: 0x03-ES6_data_manipulation
-File: 9-groceries_list.js
+File: `9-groceries_list.js`
 
-10. More map data structure
-mandatory
-Create a function named updateUniqueItems that returns an updated map for all items with initial quantity at 1.
+### 10. More map data structure
+
+Create a function named `updateUniqueItems` that returns an updated map for all items with initial quantity at 1.
 
 It should accept a map as an argument. The map it accepts for argument is similar to the map you create in the previous task.
 
-For each entry of the map where the quantity is 1, update the quantity to 100. If updating the quantity is not possible (argument is not a map) the error Cannot process should be thrown.
+For each entry of the map where the quantity is 1, update the quantity to 100. If updating the quantity is not possible (argument is not a map) the error `Cannot process` should be thrown.
 
+```bash
 bob@dylan:~$ cat 10-main.js
 import updateUniqueItems from "./10-update_uniq_items.js";
 import groceriesList from "./9-groceries_list.js";
@@ -473,11 +483,12 @@ Map {
   'Banana' => 5
 }
 bob@dylan:~$
-**Repo:**
+```
 
+**Repo:**
 GitHub repository: alx-backend-javascript
 Directory: 0x03-ES6_data_manipulation
-File: 10-update_uniq_items.js
+File: `10-update_uniq_items.js`
 
 ### 11. Weak link data structure
 
