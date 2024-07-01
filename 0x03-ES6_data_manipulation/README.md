@@ -8,7 +8,7 @@
 - [WeakMap]()
 
 # Learning Objectives
-At the end of this project, you are expected to be able to [explain to anyone](), **without the help of Google:**
+At the end of this project, you are expected to be able to [explain to anyone](https://intranet.alxswe.com/rltoken/vFyWo9TJ_4ypOC6uPi2low), **without the help of Google:**
 
 - How to use map, filter and reduce on arrays
 - Typed arrays
