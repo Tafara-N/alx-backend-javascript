@@ -479,20 +479,24 @@ GitHub repository: alx-backend-javascript
 Directory: 0x03-ES6_data_manipulation
 File: 10-update_uniq_items.js
 
-11. Weak link data structure
-#advanced
-Export a const instance of WeakMap and name it weakMap.
+### 11. Weak link data structure
 
-Export a new function named queryAPI. It should accept an endpoint argument like so:
+Export a `const` instance of `WeakMap` and name it `weakMap`.
 
+Export a new function named `queryAPI`. It should accept an endpoint argument like so:
+
+```json
   {
     protocol: 'http',
     name: 'getUsers',
   }
-Track within the weakMap the number of times queryAPI is called for each endpoint.
+```
 
-When the number of queries is >= 5 throw an error with the message Endpoint load is high.
+Track within the `weakMap` the number of times `queryAPI` is called for each endpoint.
 
+When the number of queries is >= 5 throw an error with the message `Endpoint load is high`.
+
+```bash
 bob@dylan:~$ cat 100-main.js
 import { queryAPI, weakMap } from "./100-weak.js";
 
@@ -518,8 +522,9 @@ bob@dylan:~$ npm run dev 100-main.js
     throw new Error('Endpoint load is high');
    ...
 bob@dylan:~$
-**Repo:**
+```
 
+**Repo:**
 GitHub repository: alx-backend-javascript
 Directory: 0x03-ES6_data_manipulation
-File: 100-weak.js
+File: `100-weak.js`
