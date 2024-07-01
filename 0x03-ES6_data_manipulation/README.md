@@ -1,3 +1,5 @@
+![Arrays Everywhere](arrays.jpg)
+
 # Resources
 
 **Read or watch:**
