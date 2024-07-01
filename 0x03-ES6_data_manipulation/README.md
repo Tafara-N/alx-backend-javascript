@@ -140,17 +140,19 @@ Don’t forget to run `$ npm install` when you have the `package.json`
 
 ## Tasks
 
-0. Basic list of objects
-mandatory
-Create a function named getListStudents that returns an array of objects.
+### 0. Basic list of objects
 
-Each object should have three attributes: id (Number), firstName (String), and location (String).
+Create a function named `getListStudents` that returns an array of objects.
+
+Each object should have three attributes: `id` (Number), `firstName` (String), and `location` (String).
 
 The array contains the following students in order:
 
-Guillaume, id: 1, in San Francisco
-James, id: 2, in Columbia
-Serena, id: 5, in San Francisco
+- `Guillaume`, id: `1`, in `San Francisco`
+- `James`, id: `2`, in `Columbia`
+- `Serena`, id: `5`, in `San Francisco`
+
+```bash
 bob@dylan:~$ cat 0-main.js
 import getListStudents from "./0-get_list_students.js";
 
@@ -164,11 +166,12 @@ bob@dylan:~$ npm run dev 0-main.js
   { id: 5, firstName: 'Serena', location: 'San Francisco' }
 ]
 bob@dylan:~$
-**Repo:**
+```
 
+**Repo:**
 GitHub repository: alx-backend-javascript
 Directory: 0x03-ES6_data_manipulation
-File: 0-get_list_students.js
+File: `0-get_list_students.js`
 
 ### 1. More mapping
 
