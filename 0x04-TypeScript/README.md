@@ -346,23 +346,26 @@ Directory: 0x04-TypeScript
 File: `task_2/js/main.ts`
 
 ### 7. String literal types
-mandatory
-Write a String literal type named Subjects allowing a variable to have the value Math or History only. Write a function named teachClass:
 
-it takes todayClass as an argument
-it will return the string Teaching Math if todayClass is Math
-it will return the string Teaching History if todayClass is History
+Write a String literal type named `Subjects` allowing a variable to have the value `Math` or `History` only. Write a function named teachClass:
+
+- it takes `todayClass` as an argument
+- it will return the string `Teaching Math` if `todayClass` is `Math`
+- it will return the string `Teaching History` if `todayClass` is `History`
+
 Expected result:
 
+```TypeScript
 teachClass('Math');
 Teaching Math
 teachClass('History');
 Teaching History
-Repo:
+```
 
+Repo:
 GitHub repository: alx-backend-javascript
 Directory: 0x04-TypeScript
-File: task_2/js/main.ts
+File: `task_2/js/main.ts`
 
 8. Ambient Namespaces
 mandatory
