@@ -405,7 +405,7 @@ Write an ambient file within `task_3/js`, named `crud.d.ts` containing the type 
 
 In `main.ts`
 
-- At the top of the file create a [triple slash directive](https://intranet.alxswe.com/rltoken/91U8IZgcc9cmk216FFy0-Q) that includes all the dependencies from crud.d.ts
+- At the top of the file create a [triple slash directive](https://intranet.alxswe.com/rltoken/91U8IZgcc9cmk216FFy0-Q) that includes all the dependencies from `crud.d.ts`
 - Import the `rowID` type and `rowElement` from `interface.ts`
 - Import everything from `crud.js` as `CRUD`
 
