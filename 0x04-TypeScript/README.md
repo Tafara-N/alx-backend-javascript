@@ -161,7 +161,7 @@ Requirements:
 - When running, Webpack should return `No type errors found`.
 - Every variable should use TypeScript when possible.
 
-Repo:
+**Repo:**
 - GitHub repository: `alx-backend-javascript`
 - Directory: `0x04-TypeScript`
 - File: `task_0/js/main.ts, task_0/package.json, task_0/.eslintrc.js, task_0/tsconfig.json, task_0/webpack.config.js`
@@ -198,7 +198,7 @@ console.log(teacher3);
 // location: "London"
 ```
 
-Repo:
+**Repo:**
 - GitHub repository: `alx-backend-javascript`
 - Directory: `0x04-TypeScript`
 - File: `task_1/js/main.ts, task_1/webpack.config.js, task_1/tsconfig.json, task_1/package.json`
@@ -228,7 +228,7 @@ console.log(director1);
 // numberOfReports: 17
 ```
 
-Repo:
+**Repo:**
 - GitHub repository: `alx-backend-javascript`
 - Directory: `0x04-TypeScript`
 - File: `task_1/js/main.ts`
@@ -243,7 +243,7 @@ Write a function `printTeacher`:
 
 Write an interface for the function named `printTeacherFunction`.
 
-Repo:
+**Repo:**
 - GitHub repository: `alx-backend-javascript`
 - Directory: `0x04-TypeScript`
 - File: `task_1/js/main.ts`
@@ -264,7 +264,7 @@ Requirements:
 - When running `npm run buil`d, no TypeScript error should be displayed.
 - Every variable should use TypeScript when possible.
 
-Repo:
+**Repo:**
 - GitHub repository: `alx-backend-javascript`
 - Directory: `0x04-TypeScript`
 - File: `task_1/js/main.ts`
@@ -313,7 +313,7 @@ console.log(createEmployee('$500'));
 Director
 ```
 
-Repo:
+**Repo:**
 - GitHub repository: `alx-backend-javascript`
 - Directory: `0x04-TypeScript`
 - File: `task_2/js/main.ts, task_2/webpack.config.js, task_2/tsconfig.json, task_2/package.json`
@@ -340,7 +340,7 @@ executeWork(createEmployee(1000));
 Getting to director tasks
 ```
 
-Repo:
+**Repo:**
 - GitHub repository: `alx-backend-javascript`
 - Directory: `0x04-TypeScript`
 - File: `task_2/js/main.ts`
@@ -362,7 +362,7 @@ teachClass('History');
 Teaching History
 ```
 
-Repo:
+**Repo:**
 - GitHub repository: `alx-backend-javascript`
 - Directory: `0x04-TypeScript`
 - File: `task_2/js/main.ts`
@@ -442,7 +442,7 @@ Requirements:
 - The main file and the ambient file should both import the types defined in the interface file.
 - You can easily test your ambient file by looking at the intellisense of your IDE when using the 3rd party functions.
 
-Repo:
+**Repo:**
 - GitHub repository: `alx-backend-javascript`
 - Directory: `0x04-TypeScript`
 - File: `task_3/js/main.ts, task_3/js/interface.ts, task_3/js/crud.d.ts`
@@ -512,7 +512,7 @@ In `task_4/js/subjects`:
 - Write a method named getAvailableTeacher that will return a string `Available Teacher: <first name of teacher>`
 - If the teacher doesn’t have any experience in teaching Java, then the method should return a string `No available teacher`
 
-Repo:
+**Repo:**
 - GitHub repository: `alx-backend-javascript`
 - Directory: `0x04-TypeScript`
 - File: `task_4/package.json, task_4/tsconfig.json, task_4/js/subjects/Cpp.ts, task_4/js/subjects/Java.ts, task_4/js/subjects/React.ts, task_4/js/subjects/Subject.ts, task_4/js/subjects/Teacher.ts`
@@ -527,7 +527,7 @@ Repo:
 - for Java subject, log to the console `Java`, set `cTeacher` as the teacher, call the two methods `getRequirements` and `getAvailableTeacher`, and print the strings they return
 - for React subject, log to the console `React`, set `cTeacher` as the teacher, call the two methods `getRequirements` and `getAvailableTeacher`, and print the strings they return
 
-Repo:
+**Repo:**
 - GitHub repository: `alx-backend-javascript`
 - Directory: `0x04-TypeScript`
 - File: `task_4/js/main.ts`
@@ -546,7 +546,7 @@ Create two functions named `sumMajorCredits` and `sumMinorCredits` in `task_5/js
 - `sumMajorCredits` returns `MajorCredits` value and `sumMinorCredits` returns `MinorCredits` value
 - Each function sums the credits of the two subjects
 
-Repo:
+**Repo:**
 - GitHub repository: `alx-backend-javascript`
 - Directory: `0x04-TypeScript`
 - File: `task_5/js/main.ts, task_5/package.json, task_5/webpack.config.js, task_5/tsconfig.json`
