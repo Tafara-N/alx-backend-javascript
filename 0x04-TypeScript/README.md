@@ -405,7 +405,7 @@ Write an ambient file within `task_3/js`, named `crud.d.ts` containing the type 
 
 In `main.ts`
 
-- At the top of the file create a triple slash directive that includes all the dependencies from crud.d.ts
+- At the top of the file create a [triple slash directive](https://intranet.alxswe.com/rltoken/91U8IZgcc9cmk216FFy0-Q) that includes all the dependencies from crud.d.ts
 - Import the `rowID` type and `rowElement` from `interface.ts`
 - Import everything from `crud.js` as `CRUD`
 
@@ -509,7 +509,7 @@ In `task_4/js/subjects`:
 
 - Add a new attribute `experienceTeachingJava?` (number) to the Teacher interface
 - In the class, write a method named `getRequirements` that will return a string `Here is the list of requirements for Java`
-- Write a method named getAvailableTeacher that will return a string `Available Teacher: <first name of teacher>`
+- Write a method named `getAvailableTeacher` that will return a string `Available Teacher: <first name of teacher>`
 - If the teacher doesn’t have any experience in teaching Java, then the method should return a string `No available teacher`
 
 **Repo:**
