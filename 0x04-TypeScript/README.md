@@ -163,7 +163,7 @@ Requirements:
 
 Repo:
 - GitHub repository: `alx-backend-javascript`
-Directory: 0x04-TypeScript
+- Directory: `0x04-TypeScript`
 - File: `task_0/js/main.ts, task_0/package.json, task_0/.eslintrc.js, task_0/tsconfig.json, task_0/webpack.config.js`
 
 ### 1. Let's build a Teacher interface
@@ -200,7 +200,7 @@ console.log(teacher3);
 
 Repo:
 - GitHub repository: `alx-backend-javascript`
-Directory: 0x04-TypeScript
+- Directory: `0x04-TypeScript`
 - File: `task_1/js/main.ts, task_1/webpack.config.js, task_1/tsconfig.json, task_1/package.json`
 
 ### 2. Extending the Teacher class
@@ -230,7 +230,7 @@ console.log(director1);
 
 Repo:
 - GitHub repository: `alx-backend-javascript`
-Directory: 0x04-TypeScript
+- Directory: `0x04-TypeScript`
 - File: `task_1/js/main.ts`
 
 ### 3. Printing teachers
@@ -245,7 +245,7 @@ Write an interface for the function named `printTeacherFunction`.
 
 Repo:
 - GitHub repository: `alx-backend-javascript`
-Directory: 0x04-TypeScript
+- Directory: `0x04-TypeScript`
 - File: `task_1/js/main.ts`
 
 ### 4. Writing a class
@@ -266,7 +266,7 @@ Requirements:
 
 Repo:
 - GitHub repository: `alx-backend-javascript`
-Directory: 0x04-TypeScript
+- Directory: `0x04-TypeScript`
 - File: `task_1/js/main.ts`
 
 ### 5. Advanced types Part 1
@@ -315,7 +315,7 @@ Director
 
 Repo:
 - GitHub repository: `alx-backend-javascript`
-Directory: 0x04-TypeScript
+- Directory: `0x04-TypeScript`
 - File: `task_2/js/main.ts, task_2/webpack.config.js, task_2/tsconfig.json, task_2/package.json`
 
 ### 6. Creating functions specific to employees
@@ -342,7 +342,7 @@ Getting to director tasks
 
 Repo:
 - GitHub repository: `alx-backend-javascript`
-Directory: 0x04-TypeScript
+- Directory: `0x04-TypeScript`
 - File: `task_2/js/main.ts`
 
 ### 7. String literal types
@@ -364,7 +364,7 @@ Teaching History
 
 Repo:
 - GitHub repository: `alx-backend-javascript`
-Directory: 0x04-TypeScript
+- Directory: `0x04-TypeScript`
 - File: `task_2/js/main.ts`
 
 ### 8. Ambient Namespaces
@@ -444,7 +444,7 @@ Requirements:
 
 Repo:
 - GitHub repository: `alx-backend-javascript`
-Directory: 0x04-TypeScript
+- Directory: `0x04-TypeScript`
 - File: `task_3/js/main.ts, task_3/js/interface.ts, task_3/js/crud.d.ts`
 
 ### 9. Namespace & Declaration merging
@@ -514,7 +514,7 @@ In `task_4/js/subjects`:
 
 Repo:
 - GitHub repository: `alx-backend-javascript`
-Directory: 0x04-TypeScript
+- Directory: `0x04-TypeScript`
 - File: `task_4/package.json, task_4/tsconfig.json, task_4/js/subjects/Cpp.ts, task_4/js/subjects/Java.ts, task_4/js/subjects/React.ts, task_4/js/subjects/Subject.ts, task_4/js/subjects/Teacher.ts`
 
 ### 10. Update task_4/js/main.ts
@@ -529,7 +529,7 @@ Directory: 0x04-TypeScript
 
 Repo:
 - GitHub repository: `alx-backend-javascript`
-Directory: 0x04-TypeScript
+- Directory: `0x04-TypeScript`
 - File: `task_4/js/main.ts`
 
 ### 11. Brand convention & Nominal typing
@@ -548,5 +548,5 @@ Create two functions named `sumMajorCredits` and `sumMinorCredits` in `task_5/js
 
 Repo:
 - GitHub repository: `alx-backend-javascript`
-Directory: 0x04-TypeScript
+- Directory: `0x04-TypeScript`
 - File: `task_5/js/main.ts, task_5/package.json, task_5/webpack.config.js, task_5/tsconfig.json`
