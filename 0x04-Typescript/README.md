@@ -87,6 +87,20 @@ module.exports =  {
 
 `tsconfig.json`
 
+```json
+{
+  "compilerOptions": {
+    "outDir": "./dist/",
+    "sourceMap": true,
+    "noImplicitAny": true,
+    "module": "es6",
+    "target": "es5",
+    "allowJs": true,
+    "moduleResolution": "node",
+        "skipLibCheck": true
+  }
+}
+```
 `webpack.config.js`
 
 ## Tasks
