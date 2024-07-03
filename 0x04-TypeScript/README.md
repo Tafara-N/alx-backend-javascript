@@ -162,7 +162,7 @@ Requirements:
 - Every variable should use TypeScript when possible.
 
 Repo:
-GitHub repository: alx-backend-javascript
+- GitHub repository: `alx-backend-javascript`
 Directory: 0x04-TypeScript
 - File: `task_0/js/main.ts, task_0/package.json, task_0/.eslintrc.js, task_0/tsconfig.json, task_0/webpack.config.js`
 
@@ -199,7 +199,7 @@ console.log(teacher3);
 ```
 
 Repo:
-GitHub repository: alx-backend-javascript
+- GitHub repository: `alx-backend-javascript`
 Directory: 0x04-TypeScript
 - File: `task_1/js/main.ts, task_1/webpack.config.js, task_1/tsconfig.json, task_1/package.json`
 
@@ -229,7 +229,7 @@ console.log(director1);
 ```
 
 Repo:
-GitHub repository: alx-backend-javascript
+- GitHub repository: `alx-backend-javascript`
 Directory: 0x04-TypeScript
 - File: `task_1/js/main.ts`
 
@@ -244,7 +244,7 @@ Write a function `printTeacher`:
 Write an interface for the function named `printTeacherFunction`.
 
 Repo:
-GitHub repository: alx-backend-javascript
+- GitHub repository: `alx-backend-javascript`
 Directory: 0x04-TypeScript
 - File: `task_1/js/main.ts`
 
@@ -265,7 +265,7 @@ Requirements:
 - Every variable should use TypeScript when possible.
 
 Repo:
-GitHub repository: alx-backend-javascript
+- GitHub repository: `alx-backend-javascript`
 Directory: 0x04-TypeScript
 - File: `task_1/js/main.ts`
 
@@ -314,7 +314,7 @@ Director
 ```
 
 Repo:
-GitHub repository: alx-backend-javascript
+- GitHub repository: `alx-backend-javascript`
 Directory: 0x04-TypeScript
 - File: `task_2/js/main.ts, task_2/webpack.config.js, task_2/tsconfig.json, task_2/package.json`
 
@@ -341,7 +341,7 @@ Getting to director tasks
 ```
 
 Repo:
-GitHub repository: alx-backend-javascript
+- GitHub repository: `alx-backend-javascript`
 Directory: 0x04-TypeScript
 - File: `task_2/js/main.ts`
 
@@ -363,7 +363,7 @@ Teaching History
 ```
 
 Repo:
-GitHub repository: alx-backend-javascript
+- GitHub repository: `alx-backend-javascript`
 Directory: 0x04-TypeScript
 - File: `task_2/js/main.ts`
 
@@ -443,7 +443,7 @@ Requirements:
 - You can easily test your ambient file by looking at the intellisense of your IDE when using the 3rd party functions.
 
 Repo:
-GitHub repository: alx-backend-javascript
+- GitHub repository: `alx-backend-javascript`
 Directory: 0x04-TypeScript
 - File: `task_3/js/main.ts, task_3/js/interface.ts, task_3/js/crud.d.ts`
 
@@ -513,7 +513,7 @@ In `task_4/js/subjects`:
 - If the teacher doesn’t have any experience in teaching Java, then the method should return a string `No available teacher`
 
 Repo:
-GitHub repository: alx-backend-javascript
+- GitHub repository: `alx-backend-javascript`
 Directory: 0x04-TypeScript
 - File: `task_4/package.json, task_4/tsconfig.json, task_4/js/subjects/Cpp.ts, task_4/js/subjects/Java.ts, task_4/js/subjects/React.ts, task_4/js/subjects/Subject.ts, task_4/js/subjects/Teacher.ts`
 
@@ -528,7 +528,7 @@ Directory: 0x04-TypeScript
 - for React subject, log to the console `React`, set `cTeacher` as the teacher, call the two methods `getRequirements` and `getAvailableTeacher`, and print the strings they return
 
 Repo:
-GitHub repository: alx-backend-javascript
+- GitHub repository: `alx-backend-javascript`
 Directory: 0x04-TypeScript
 - File: `task_4/js/main.ts`
 
@@ -547,6 +547,6 @@ Create two functions named `sumMajorCredits` and `sumMinorCredits` in `task_5/js
 - Each function sums the credits of the two subjects
 
 Repo:
-GitHub repository: alx-backend-javascript
+- GitHub repository: `alx-backend-javascript`
 Directory: 0x04-TypeScript
 - File: `task_5/js/main.ts, task_5/package.json, task_5/webpack.config.js, task_5/tsconfig.json`
