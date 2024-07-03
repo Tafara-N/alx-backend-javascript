@@ -249,88 +249,103 @@ Directory: 0x04-TypeScript
 File: `task_1/js/main.ts`
 
 ### 4. Writing a class
-mandatory
-Write a Class named StudentClass:
 
-The constructor accepts firstName(string) and lastName(string) arguments
-The class has a method named workOnHomework that return the string Currently working
-The class has a method named displayName. It returns the firstName of the student
-The constructor of the class should be described through an Interface
-The class should be described through an Interface
+Write a Class named `StudentClass`:
+
+- The constructor accepts `firstName(string)` and `lastName(string)` arguments
+- The class has a method named `workOnHomework` that return the string `Currently working`
+- The class has a method named `displayName`. It returns the firstName of the student
+- The constructor of the class should be described through an Interface
+- The class should be described through an Interface
+
 Requirements:
 
-You can reuse the Webpack configuration from the previous exercise to compile the code.
-When running npm run build, no TypeScript error should be displayed.
-Every variable should use TypeScript when possible.
-Repo:
+- You can reuse the Webpack configuration from the previous exercise to compile the code.
+- When running `npm run buil`d, no TypeScript error should be displayed.
+- Every variable should use TypeScript when possible.
 
+Repo:
 GitHub repository: alx-backend-javascript
 Directory: 0x04-TypeScript
-File: task_1/js/main.ts
-5. Advanced types Part 1
-mandatory
-Create the DirectorInterface interface with the 3 expected methods:
+File: `task_1/js/main.ts`
 
-workFromHome() returning a string
-getCoffeeBreak() returning a string
-workDirectorTasks() returning a string
-Create the TeacherInterface interface with the 3 expected methods:
+### 5. Advanced types Part 1
 
-workFromHome() returning a string
-getCoffeeBreak() returning a string
-workTeacherTasks() returning a string
-Create a class Director that will implement DirectorInterface
+Create the `DirectorInterface` interface with the 3 expected methods:
 
-workFromHome should return the string Working from home
-getToWork should return the string Getting a coffee break
-workDirectorTasks should return the string Getting to director tasks
-Create a class Teacher that will implement TeacherInterface
+- `workFromHome()` returning a string
+- `getCoffeeBreak()` returning a string
+- `workDirectorTasks()` returning a string
 
-workFromHome should return the string Cannot work from home
-getCoffeeBreak should return the string Cannot have a break
-workTeacherTasks should return the string Getting to work
-Create a function createEmployee with the following requirements:
+Create the `TeacherInterface` interface with the 3 expected methods:
 
-It can return either a Director or a Teacher instance
-It accepts 1 arguments:
-salary(either number or string)
-if salary is a number and less than 500 - It should return a new Teacher. Otherwise it should return a Director
+- `workFromHome()` returning a string
+- `getCoffeeBreak()` returning a string
+- `workTeacherTasks()` returning a string
+
+Create a class `Director` that will implement DirectorInterface
+
+- `workFromHome` should return the string `Working from home`
+- `getToWork` should return the string `Getting a coffee break`
+- `workDirectorTasks` should return the string `Getting to director tasks`
+
+Create a class `Teacher` that will implement `TeacherInterface`
+
+- `workFromHome` should return the string `Cannot work from home`
+- `getCoffeeBreak` should return the string `Cannot have a break`
+- `workTeacherTasks` should return the string `Getting to work`
+
+Create a function `createEmployee` with the following requirements:
+
+- `It can return either a `Director` or a `Teacher` instance
+- It accepts 1 arguments:
+    - `salary`(either number or string)
+- if `salary` is a number and less than 500 - It should return a new `Teacher`. Otherwise it should return a `Director`
+
 Expected result:
 
+```TypeScript
 console.log(createEmployee(200));
 Teacher
 console.log(createEmployee(1000));
 Director
 console.log(createEmployee('$500'));
 Director
-Repo:
+```
 
+Repo:
 GitHub repository: alx-backend-javascript
 Directory: 0x04-TypeScript
-File: task_2/js/main.ts, task_2/webpack.config.js, task_2/tsconfig.json, task_2/package.json
-6. Creating functions specific to employees
-mandatory
-Write a function isDirector:
+File: `task_2/js/main.ts, task_2/webpack.config.js, task_2/tsconfig.json, task_2/package.json`
 
-it accepts employee as an argument
-it will be used as a type predicate and if the employee is a director
-Write a function executeWork:
+### 6. Creating functions specific to employees
 
-it accepts employee as an argument
-if the employee is a Director, it will call workDirectorTasks
-if the employee is a Teacher, it will call workTeacherTasks
+Write a function `isDirector`:
+
+- it accepts `employee` as an argument
+- it will be used as a type predicate and if the employee is a director
+
+Write a function `executeWork`:
+
+- it accepts `employee` as an argument
+- if the employee is a Director, it will call `workDirectorTasks`
+- if the employee is a Teacher, it will call `workTeacherTasks`
+
 Expected result:
 
+```TypeScript
 executeWork(createEmployee(200));
 Getting to work
 executeWork(createEmployee(1000));
 Getting to director tasks
-Repo:
+```
 
+Repo:
 GitHub repository: alx-backend-javascript
 Directory: 0x04-TypeScript
-File: task_2/js/main.ts
-7. String literal types
+File: `task_2/js/main.ts`
+
+### 7. String literal types
 mandatory
 Write a String literal type named Subjects allowing a variable to have the value Math or History only. Write a function named teachClass:
 
