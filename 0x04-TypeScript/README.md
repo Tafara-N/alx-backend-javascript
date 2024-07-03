@@ -416,12 +416,13 @@ Create an object called `row` with the type `RowElement` with the fields set to 
 
 Create a `const` variable named `newRowID` with the type `RowID` and assign the value the `insertRow` command.
 
-Next, create a const variable named updatedRow with the type RowElement and update row with an age field set to 23
+Next, create a `const` variable named `updatedRow` with the type `RowElement` and update `row` with an age field set to `23`
 
-Finally, call the updateRow and deleteRow commands.
+Finally, call the `updateRow` and `deleteRow` commands.
 
 Expected result:
 
+```TypeScript
 const obj = {firstName: "Guillaume", lastName: "Salva"};
 CRUD.insertRow(obj)
 // Insert row {firstName: "Guillaume", lastName: "Salva"}
@@ -432,18 +433,21 @@ CRUD.updateRow(newRowID, updatedRow);
 
 CRUD.deleteRow(125);
 // Delete row id 125
+```
+
 Requirements:
 
-When running npm run build, no TypeScript error should be displayed.
-Every variable should use TypeScript when possible.
-The main file and the ambient file should both import the types defined in the interface file.
-You can easily test your ambient file by looking at the intellisense of your IDE when using the 3rd party functions.
-Repo:
+- When running `npm run build`, no TypeScript error should be displayed.
+- Every variable should use TypeScript when possible.
+- The main file and the ambient file should both import the types defined in the interface file.
+- You can easily test your ambient file by looking at the intellisense of your IDE when using the 3rd party functions.
 
+Repo:
 GitHub repository: alx-backend-javascript
 Directory: 0x04-TypeScript
-File: task_3/js/main.ts, task_3/js/interface.ts, task_3/js/crud.d.ts
-9. Namespace & Declaration merging
+File: `task_3/js/main.ts, task_3/js/interface.ts, task_3/js/crud.d.ts`
+
+### 9. Namespace & Declaration merging
 mandatory
 Create a new directory task_4 and copy the above tsconfig.json and put this package.json in there
 
