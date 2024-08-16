@@ -3,6 +3,7 @@
 ## Table of Content
 - [Author](#author)
 - [Description](#description)
+- [Node Installation](#setup)
 ___
 
 - [ES6: Basic](0x00-ES6_basic/README.md)
@@ -14,8 +15,9 @@ ___
 
 - [Requirements](#requirements)
 
+# Description
 
-# Concepts
+## Concepts
 
 *For this project, we expect you to look at these concepts:*
 
