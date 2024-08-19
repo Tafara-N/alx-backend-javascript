@@ -3,7 +3,7 @@
 # Resources
 
 **Read or watch:**
-- [Node JS getting started]()
+- [Node JS getting started](https://nodejs.org/en/learn/getting-started/introduction-to-nodejs)
 - [Process API doc]()
 - [Child process]()
 - [Express getting started]()
