@@ -210,16 +210,18 @@ GitHub repository: alx-backend-javascript
 Directory: 0x05-Node_JS_basic
 File: `1-stdin.js`
 
-2. Reading a file synchronously with Node JS
-mandatory
-Using the database database.csv (provided in project description), create a function countStudents in the file 2-read_file.js
+### 2. Reading a file synchronously with Node JS
 
-Create a function named countStudents. It should accept a path in argument
-The script should attempt to read the database file synchronously
-If the database is not available, it should throw an error with the text Cannot load the database
-If the database is available, it should log the following message to the console Number of students: NUMBER_OF_STUDENTS
-It should log the number of students in each field, and the list with the following format: Number of students in FIELD: 6. List: LIST_OF_FIRSTNAMES
-CSV file can contain empty lines (at the end) - and they are not a valid student!
+Using the database `database.csv` (provided in project description), create a function `countStudents` in the file `2-read_file.js`
+
+- Create a function named `countStudents`. It should accept a path in argument
+- The script should attempt to read the database file synchronously
+- If the database is not available, it should throw an error with the text `Cannot load the database`
+- If the database is available, it should log the following message to the console `Number of students: NUMBER_OF_STUDENTS`
+- It should log the number of students in each field, and the list with the following format: `Number of students in FIELD: 6. List: LIST_OF_FIRSTNAMES`
+- CSV file can contain empty lines (at the end) - and they are not a valid student!
+
+```bash
 bob@dylan:~$ cat 2-main_0.js
 const countStudents = require('./2-read_file');
 
@@ -243,11 +245,12 @@ Number of students: 10
 Number of students in CS: 6. List: Johann, Arielle, Jonathan, Emmanuel, Guillaume, Katie
 Number of students in SWE: 4. List: Guillaume, Joseph, Paul, Tommy
 bob@dylan:~$
-Repo:
+```
 
+Repo:
 GitHub repository: alx-backend-javascript
 Directory: 0x05-Node_JS_basic
-File: 2-read_file.js
+File: `2-read_file.js`
 
 3. Reading a file asynchronously with Node JS
 mandatory
