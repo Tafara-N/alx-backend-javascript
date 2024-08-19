@@ -514,19 +514,25 @@ Inside the file named `full_server/server.js`, create a small `Express` server:
 - It should use the routes defined in `full_server/routes/index.js`
 - It should use the port `1245`
 
-## 8.6 Update package.json (if you are running it from outside the folder full_server)
-If you are starting node from outside of the folder full_server, you will have to update the command dev by: nodemon --exec babel-node --presets babel-preset-env ./full_server/server.js ./database.csv
+## 8.6 Update `package.json` (if you are running it from outside the folder `full_server`)
 
-Warning:
+If you are starting node from outside of the folder `full_server`, you will have to update the command `dev` by: `nodemon --exec babel-node --presets babel-preset-env ./full_server/server.js ./database.csv`
 
-Don’t forget to export your express app at the end of server.js (export default app;)
-The database filename is passed as argument of the server.js BUT, for testing purpose, you should retrieve this filename at the execution (when getAllStudents or getAllStudentsByMajor are called for example)
-In terminal 1:
+**Warning:**
 
+- Don’t forget to export your express app at the end of `server.js` (`export default app;`)
+- The database filename is passed as argument of the `server.js` BUT, for testing purpose, you should retrieve this filename at the execution (when `getAllStudents` or `getAllStudentsByMajor` are called for example)
+
+**In terminal 1:**
+
+```bash
 bob@dylan:~$ npm run dev
 ...
-In terminal 2:
+```
 
+**In terminal 2:**
+
+```bash
 bob@dylan:~$ curl localhost:1245 && echo ""
 Hello Holberton School!
 bob@dylan:~$
@@ -556,11 +562,17 @@ bob@dylan:~$ curl localhost:1245/students/French -vvv && echo ""
 * Connection #0 to host localhost left intact
 Major parameter must be CS or SWE
 bob@dylan:~$
-If you want to add test to validate your integration, you will need to add this file: .babelrc
+```
 
-Click to show/hide file contents
+If you want to add test to validate your integration, you will need to add this file: `.babelrc`
+
+```babelrc
+{
+    "presets": [["env", {"exclude": ["transform-regenerator"]}]]
+}
+```
+
 Repo:
-
 GitHub repository: alx-backend-javascript
 Directory: 0x05-Node_JS_basic
 File: full_server/utils.js, full_server/controllers/AppController.js, full_server/controllers/StudentsController.js, full_server/routes/index.js, full_server/server.js
