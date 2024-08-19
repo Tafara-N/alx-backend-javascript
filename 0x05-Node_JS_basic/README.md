@@ -175,7 +175,7 @@ bob@dylan:~$
 ```
 
 **Repo:**
-GitHub repository: alx-backend-javascript
+- GitHub repository: `alx-backend-javascript`
 Directory: 0x05-Node_JS_basic
 - File: `0-console.js`
 
@@ -206,7 +206,7 @@ bob@dylan:~$
 ```
 
 **Repo:**
-GitHub repository: alx-backend-javascript
+- GitHub repository: `alx-backend-javascript`
 Directory: 0x05-Node_JS_basic
 - File: `1-stdin.js`
 
@@ -248,7 +248,7 @@ bob@dylan:~$
 ```
 
 **Repo:**
-GitHub repository: alx-backend-javascript
+- GitHub repository: `alx-backend-javascript`
 Directory: 0x05-Node_JS_basic
 - File: `2-read_file.js`
 
@@ -306,7 +306,7 @@ bob@dylan:~$
 - Using asynchronous callbacks is the preferred way to write code in Node to avoid blocking threads
 
 **Repo:**
-GitHub repository: alx-backend-javascript
+- GitHub repository: `alx-backend-javascript`
 Directory: 0x05-Node_JS_basic
 - File: `3-read_file_async.js`
 
@@ -337,7 +337,7 @@ bob@dylan:~$
 ```
 
 **Repo:**
-GitHub repository: alx-backend-javascript
+- GitHub repository: `alx-backend-javascript`
 Directory: 0x05-Node_JS_basic
 - File: `4-http.js`
 
@@ -374,7 +374,7 @@ bob@dylan:~$
 ```
 
 **Repo:**
-GitHub repository: alx-backend-javascript
+- GitHub repository: `alx-backend-javascript`
 Directory: 0x05-Node_JS_basic
 - File: `5-http.js`
 
@@ -414,7 +414,7 @@ bob@dylan:~$
 ```
 
 **Repo:**
-GitHub repository: alx-backend-javascript
+- GitHub repository: `alx-backend-javascript`
 Directory: 0x05-Node_JS_basic
 - File: `6-http_express.js`
 
@@ -451,7 +451,7 @@ bob@dylan:~$
 ```
 
 **Repo:**
-GitHub repository: alx-backend-javascript
+- GitHub repository: `alx-backend-javascript`
 Directory: 0x05-Node_JS_basic
 - File: `7-http_express.js`
 
@@ -573,6 +573,6 @@ If you want to add test to validate your integration, you will need to add this 
 ```
 
 **Repo:**
-GitHub repository: alx-backend-javascript
+- GitHub repository: `alx-backend-javascript`
 Directory: 0x05-Node_JS_basic
 - File: `full_server/utils.js, full_server/controllers/AppController.js, full_server/controllers/StudentsController.js, full_server/routes/index.js, full_server/server.js`
