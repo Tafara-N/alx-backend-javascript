@@ -494,13 +494,15 @@ The first one is `getAllStudents`:
 
 The second one is `getAllStudentsByMajor`:
 
-The method accepts request and response as argument
-It should return a status 200
-It uses a parameter that the user can pass to the browser major. The major can only be CS or SWE. If the user is passing another parameter, the server should return a 500 and the error Major parameter must be CS or SWE
-It calls the function readDatabase from the utils file, and display in the page the list of first names for the students (ordered by appearance in the database file) in the specified field List: LIST_OF_FIRSTNAMES_IN_THE_FIELD
-If the database is not available, it should return a status 500 and the error message Cannot load the database
-8.4 Write the routes
-Inside the file full_server/routes/index.js:
+- The method accepts `request` and `response` as argument
+- It should return a status 200
+- It uses a parameter that the user can pass to the browser `major`. The `major` can only be `CS` or `SWE`. If the user is passing another parameter, the server should return a 500 and the error `Major parameter must be CS or SWE`
+- It calls the function `readDatabase` from the `utils` file, and display in the page the list of first names for the students (ordered by appearance in the database file) in the specified field `List: LIST_OF_FIRSTNAMES_IN_THE_FIELD`
+- If the database is not available, it should return a status 500 and the error message `Cannot load the database`
+
+## 8.4 Write the routes
+
+Inside the file `full_server/routes/index.js`:
 
 Link the route / to the AppController
 Link the route /students and /students/:majorto the StudentsController
