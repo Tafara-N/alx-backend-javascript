@@ -5,7 +5,7 @@
 **Read or watch:**
 - [Node JS getting started](https://nodejs.org/en/learn/getting-started/introduction-to-nodejs)
 - [Process API doc]()
-- [Child process]()
+- [Child process](https://nodejs.org/api/child_process.html)
 - [Express getting started]()
 - [Mocha documentation]()
 - [Nodemon documentation]()
