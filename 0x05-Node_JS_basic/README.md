@@ -455,16 +455,17 @@ GitHub repository: alx-backend-javascript
 Directory: 0x05-Node_JS_basic
 File: `7-http_express.js`
 
-8. Organize a complex HTTP server using Express
-mandatory
-Obviously writing every part of a server within a single file is not sustainable. Let’s create a full server in a directory named full_server.
+### 8. Organize a complex HTTP server using Express
 
-Since you have used ES6 and Babel in the past projects, let’s use babel-node to allow to use ES6 functions like import or export.
+Obviously writing every part of a server within a single file is not sustainable. Let’s create a full server in a directory named `full_server`.
 
-8.1 Organize the structure of the server
-Create 2 directories within:
-controllers
-routes
+Since you have used ES6 and Babel in the past projects, let’s use `babel-node` to allow to use ES6 functions like `import` or `export`.
+
+## 8.1 Organize the structure of the server
+
+- Create 2 directories within:
+    - `controllers`
+    - `routes`
 Create a file full_server/utils.js, in the file create a function named readDatabase that accepts a file path as argument:
 It should read the database asynchronously
 It should return a promise
