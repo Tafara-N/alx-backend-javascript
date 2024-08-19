@@ -380,11 +380,11 @@ File: `5-http.js`
 
 ### 6. Create a small HTTP server using Express
 
-Install Express and in a file named `6-http_express.js`, create a small HTTP server using Express module:
+Install `Express` and in a file named `6-http_express.js`, create a small HTTP server using Express module:
 
-It should be assigned to the variable `app` and this one must be exported
-HTTP server should listen on port 1245
-Displays `Hello Holberton School!` in the page body for the endpoint `/`
+- It should be assigned to the variable `app` and this one must be exported
+- HTTP server should listen on port 1245
+- Displays `Hello Holberton School!` in the page body for the endpoint `/`
 
 **In terminal 1:**
 
@@ -418,22 +418,27 @@ GitHub repository: alx-backend-javascript
 Directory: 0x05-Node_JS_basic
 File: `6-http_express.js`
 
-7. Create a more complex HTTP server using Express
-mandatory
-In a file named 7-http_express.js, recreate the small HTTP server using Express:
+### 7. Create a more complex HTTP server using Express
+
+In a file named `7-http_express.js`, recreate the small HTTP server using `Express`:
 
 It should be assigned to the variable app and this one must be exported
 HTTP server should listen on port 1245
 It should return plain text
-When the URL path is /, it should display Hello Holberton School! in the page body
-When the URL path is /students, it should display This is the list of our students followed by the same content as the file 3-read_file_async.js (with and without the database) - the name of the database must be passed as argument of the file
+When the URL path is `/`, it should display `Hello Holberton School!` in the page body
+When the URL path is `/students`, it should display `This is the list of our students` followed by the same content as the file `3-read_file_async.js` (with and without the database) - the name of the database must be passed as argument of the file
 CSV file can contain empty lines (at the end) - and they are not a valid student!
-Terminal 1:
 
+**Terminal 1:**
+
+```bash
 bob@dylan:~$ node 7-http_express.js database.csv
 ...
-In terminal 2:
+```
 
+**In terminal 2:**
+
+```bash
 bob@dylan:~$ curl localhost:1245 && echo ""
 Hello Holberton School!
 bob@dylan:~$
@@ -443,11 +448,12 @@ Number of students: 10
 Number of students in CS: 6. List: Johann, Arielle, Jonathan, Emmanuel, Guillaume, Katie
 Number of students in SWE: 4. List: Guillaume, Joseph, Paul, Tommy
 bob@dylan:~$
-Repo:
+```
 
+Repo:
 GitHub repository: alx-backend-javascript
 Directory: 0x05-Node_JS_basic
-File: 7-http_express.js
+File: `7-http_express.js`
 
 8. Organize a complex HTTP server using Express
 mandatory
