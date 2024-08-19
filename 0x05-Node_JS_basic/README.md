@@ -473,11 +473,14 @@ Since you have used ES6 and Babel in the past projects, let’s use `babel-node`
     - When the file can be read, it should return an object of arrays of the firstname of students per fields
 
 ## 8.2 Write the App controller
-Inside the file full_server/controllers/AppController.js:
 
-Create a class named AppController. Add a static method named getHomepage
-The method accepts request and response as argument. It returns a 200 status and the message Hello Holberton School!
-8.3 Write the Students controller
+Inside the file `full_server/controllers/AppController.js`:
+
+- Create a class named `AppController`. Add a static method named `getHomepage`
+- The method accepts `request` and `response` as argument. It returns a 200 status and the message `Hello Holberton School!`
+
+## 8.3 Write the Students controller
+
 Inside the file full_server/controllers/StudentsController.js, create a class named StudentsController. Add two static methods:
 
 The first one is getAllStudents:
