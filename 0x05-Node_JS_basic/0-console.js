@@ -1,5 +1,5 @@
 // Function to print a message to the console
 
-function displayMessage() {
-  console.log('Hello, Node.js!');
+function displayMessage(message) {
+  console.log(message);
 }
