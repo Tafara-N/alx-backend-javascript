@@ -477,7 +477,7 @@ Since you have used ES6 and Babel in the past projects, let’s use `babel-node`
 Inside the file `full_server/controllers/AppController.js`:
 
 - Create a class named `AppController`. Add a static method named `getHomepage`
-- The method accepts `request` and `response` as argument. It returns a 200 status and the message `Hello Holberton School!`
+- The method accepts `request` and `response` as arguments. It returns a 200 status and the message `Hello Holberton School!`
 
 ## 8.3 Write the Students controller
 
