@@ -252,7 +252,7 @@ bob@dylan:~$
 - Directory: `0x05-Node_JS_basic`
 - File: `2-read_file.js`
 
-3. Reading a file asynchronously with Node JS
+### 3. Reading a file asynchronously with Node JS
 
 Using the database `database.csv` (provided in project description), create a function `countStudents` in the file `3-read_file_async.js`
 
