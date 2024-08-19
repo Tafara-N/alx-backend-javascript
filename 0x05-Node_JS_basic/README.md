@@ -157,11 +157,13 @@ module.exports = {
 
 Don’t forget to run `$ npm install` when you have the `package.json`
 
-Tasks
-0. Executing basic javascript with Node JS
-mandatory
-In the file 0-console.js, create a function named displayMessage that prints in STDOUT the string argument.
+## Tasks
 
+### 0. Executing basic javascript with Node JS
+
+In the file `0-console.js`, create a function named `displayMessage` that prints in `STDOUT` the string argument.
+
+```bash
 bob@dylan:~$ cat 0-main.js
 const displayMessage = require('./0-console');
 
@@ -170,11 +172,12 @@ displayMessage("Hello NodeJS!");
 bob@dylan:~$ node 0-main.js
 Hello NodeJS!
 bob@dylan:~$
-Repo:
+```
 
+Repo:
 GitHub repository: alx-backend-javascript
 Directory: 0x05-Node_JS_basic
-File: 0-console.js
+File: `0-console.js`
 
 1. Using Process stdin
 mandatory
