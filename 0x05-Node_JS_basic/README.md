@@ -177,7 +177,7 @@ bob@dylan:~$
 **Repo:**
 GitHub repository: alx-backend-javascript
 Directory: 0x05-Node_JS_basic
-File: `0-console.js`
+- File: `0-console.js`
 
 ### 1. Using Process stdin
 
@@ -208,7 +208,7 @@ bob@dylan:~$
 **Repo:**
 GitHub repository: alx-backend-javascript
 Directory: 0x05-Node_JS_basic
-File: `1-stdin.js`
+- File: `1-stdin.js`
 
 ### 2. Reading a file synchronously with Node JS
 
@@ -250,7 +250,7 @@ bob@dylan:~$
 **Repo:**
 GitHub repository: alx-backend-javascript
 Directory: 0x05-Node_JS_basic
-File: `2-read_file.js`
+- File: `2-read_file.js`
 
 3. Reading a file asynchronously with Node JS
 
@@ -308,7 +308,7 @@ bob@dylan:~$
 **Repo:**
 GitHub repository: alx-backend-javascript
 Directory: 0x05-Node_JS_basic
-File: `3-read_file_async.js`
+- File: `3-read_file_async.js`
 
 ### 4. Create a small HTTP server using Node's HTTP module
 
@@ -339,7 +339,7 @@ bob@dylan:~$
 **Repo:**
 GitHub repository: alx-backend-javascript
 Directory: 0x05-Node_JS_basic
-File: `4-http.js`
+- File: `4-http.js`
 
 ### 5. Create a more complex HTTP server using Node's HTTP module
 
@@ -376,7 +376,7 @@ bob@dylan:~$
 **Repo:**
 GitHub repository: alx-backend-javascript
 Directory: 0x05-Node_JS_basic
-File: `5-http.js`
+- File: `5-http.js`
 
 ### 6. Create a small HTTP server using Express
 
@@ -416,7 +416,7 @@ bob@dylan:~$
 **Repo:**
 GitHub repository: alx-backend-javascript
 Directory: 0x05-Node_JS_basic
-File: `6-http_express.js`
+- File: `6-http_express.js`
 
 ### 7. Create a more complex HTTP server using Express
 
@@ -453,7 +453,7 @@ bob@dylan:~$
 **Repo:**
 GitHub repository: alx-backend-javascript
 Directory: 0x05-Node_JS_basic
-File: `7-http_express.js`
+- File: `7-http_express.js`
 
 ### 8. Organize a complex HTTP server using Express
 
@@ -575,4 +575,4 @@ If you want to add test to validate your integration, you will need to add this 
 **Repo:**
 GitHub repository: alx-backend-javascript
 Directory: 0x05-Node_JS_basic
-File: `full_server/utils.js, full_server/controllers/AppController.js, full_server/controllers/StudentsController.js, full_server/routes/index.js, full_server/server.js`
+- File: `full_server/utils.js, full_server/controllers/AppController.js, full_server/controllers/StudentsController.js, full_server/routes/index.js, full_server/server.js`
