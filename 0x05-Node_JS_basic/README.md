@@ -481,17 +481,18 @@ Inside the file `full_server/controllers/AppController.js`:
 
 ## 8.3 Write the Students controller
 
-Inside the file full_server/controllers/StudentsController.js, create a class named StudentsController. Add two static methods:
+Inside the file `full_server/controllers/StudentsController.js`, create a class named `StudentsController`. Add two static methods:
 
-The first one is getAllStudents:
+The first one is `getAllStudents`:
 
-The method accepts request and response as argument
-It should return a status 200
-It calls the function readDatabase from the utils file, and display in the page:
-First line: This is the list of our students
-And for each field (order by alphabetic order case insensitive), a line that displays the number of students in the field, and the list of first names (ordered by appearance in the database file) with the following format: Number of students in FIELD: 6. List: LIST_OF_FIRSTNAMES
-If the database is not available, it should return a status 500 and the error message Cannot load the database
-The second one is getAllStudentsByMajor:
+- The method accepts `request` and `response` as argument
+- It should return a status 200
+- It calls the function `readDatabase` from the `utils` file, and display in the page:
+    - First line: `This is the list of our students`
+    - And for each field (order by alphabetic order case insensitive), a line that displays the number of students in the field, and the list of first names (ordered by appearance in the database file) with the following format: `Number of students in FIELD: 6. List: LIST_OF_FIRSTNAMES`
+- If the database is not available, it should return a status 500 and the error message `Cannot load the database`
+
+The second one is `getAllStudentsByMajor`:
 
 The method accepts request and response as argument
 It should return a status 200
