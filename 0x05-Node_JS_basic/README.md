@@ -504,9 +504,10 @@ The second one is `getAllStudentsByMajor`:
 
 Inside the file `full_server/routes/index.js`:
 
-Link the route / to the AppController
-Link the route /students and /students/:majorto the StudentsController
-8.5 Write the server reusing everything you created
+- Link the route `/` to the `AppController`
+- Link the route `/students` and `/students/:majorto` the `StudentsController`
+
+## 8.5 Write the server reusing everything you created
 Inside the file named full_server/server.js, create a small Express server:
 
 It should use the routes defined in full_server/routes/index.js
