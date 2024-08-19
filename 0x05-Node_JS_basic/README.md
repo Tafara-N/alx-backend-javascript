@@ -8,7 +8,7 @@
 - [Child process](https://nodejs.org/api/child_process.html)
 - [Express getting started](https://expressjs.com/en/starter/installing.html)
 - [Mocha documentation](https://mochajs.org/)
-- [Nodemon documentation]()
+- [Nodemon documentation](https://github.com/remy/nodemon#nodemon)
 
 # Learning Objectives
 At the end of this project, you are expected to be able to [explain to anyone](https://fs.blog/feynman-learning-technique/), **without the help of Google:**
