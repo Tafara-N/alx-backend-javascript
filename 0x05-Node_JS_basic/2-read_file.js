@@ -3,6 +3,7 @@
  * @param {string} path - Path of the file
  * @returns {void}
  */
+
 const fs = require('fs');
 
 module.exports = function countStudents(path) {
