@@ -5,7 +5,7 @@
 const express = require('express');
 const fs = require('fs');
 
-function countStudents (path) {
+function countStudents(path) {
   return new Promise((resolve, reject) => {
     fs.readFile(path, { encoding: 'utf-8' }, (err, data) => {
       if (err) return reject(Error('Cannot load the database'));
@@ -38,7 +38,7 @@ function countStudents (path) {
         if (Object.hasOwnProperty.call(fields, key)) {
           const element = fields[key];
           all.listStudents.push(
-            `Number of students in ${key}: ${element}. List: ${students[key]}`
+            `Number of students in ${key}: ${element}. List: ${students[key]}`,
           );
         }
       }
