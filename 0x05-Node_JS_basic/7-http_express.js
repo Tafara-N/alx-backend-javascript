@@ -1,14 +1,11 @@
 /**
- * Web server that reads a file and returns the content
- * @param {string} path - Path of the database
- * @returns {Promise} - The content of the file
- * @throws {Error} - If cannot load the database
+ * A more complex HTTP server using Express
  */
 
-const http = require('http');
+const express = require('express');
 const fs = require('fs');
 
-function countStudents(path) {
+function countStudents (path) {
   return new Promise((resolve, reject) => {
     fs.readFile(path, { encoding: 'utf-8' }, (err, data) => {
       if (err) return reject(Error('Cannot load the database'));
@@ -23,7 +20,6 @@ function countStudents(path) {
       const fields = {};
       const students = {};
 
-      // Contains all the data
       const all = {};
 
       lines.forEach((line) => {
@@ -42,7 +38,7 @@ function countStudents(path) {
         if (Object.hasOwnProperty.call(fields, key)) {
           const element = fields[key];
           all.listStudents.push(
-            `Number of students in ${key}: ${element}. List: ${students[key]}`,
+            `Number of students in ${key}: ${element}. List: ${students[key]}`
           );
         }
       }
@@ -50,10 +46,6 @@ function countStudents(path) {
     });
   });
 }
-
-/**
- * A more complex HTTP server using Express
- */
 
 const app = express();
 const port = 1245;
