@@ -7,8 +7,8 @@ const fs = require('fs');
 
 function countStudents(path) {
   return new Promise((resolve, reject) => {
-    fs.readFile(path, { encoding: 'utf-8' }, (err, data) => {
-      if (err) return reject(Error('Cannot load the database'));
+    fs.readFile(path, { encoding: 'utf-8' }, (error, data) => {
+      if (error) return reject(Error('Cannot load the database'));
 
       const lines = data.split('\n').slice(1, -1);
 
@@ -61,8 +61,8 @@ app.get('/students', (req, res) => {
       res.write(data.numberStudents);
       res.end(data.listStudents.join('\n'));
     })
-    .catch((err) => {
-      res.end(err.message);
+    .catch((error) => {
+      res.end(error.message);
     });
 });
 
