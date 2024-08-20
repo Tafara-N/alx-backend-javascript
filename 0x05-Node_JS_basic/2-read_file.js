@@ -5,7 +5,7 @@
  */
 const fs = require('fs');
 
-module.exports = function countStudents (path) {
+module.exports = function countStudents(path) {
   try {
     const data = fs.readFileSync(path, { encoding: 'utf-8' });
 
@@ -14,8 +14,8 @@ module.exports = function countStudents (path) {
 
     const header = data.split('\n').slice(0, 1)[0].split(',');
 
-    const firstname_index = header.findIndex((ele) => ele === 'firstname');
-    const field_index = header.findIndex((ele) => ele === 'field');
+    const firstnameIndex = header.findIndex((ele) => ele === 'firstname');
+    const fieldIndex = header.findIndex((ele) => ele === 'field');
 
     // Dictionaries for counting each fields and store list of students
     const fields = {};
@@ -24,13 +24,13 @@ module.exports = function countStudents (path) {
     lines.forEach((line) => {
       const list = line.split(',');
 
-      if (!fields[list[field_index]]) fields[list[field_index]] = 0;
-      fields[list[field_index]] += 1;
+      if (!fields[list[fieldIndex]]) fields[list[fieldIndex]] = 0;
+      fields[list[fieldIndex]] += 1;
 
-      if (!students[list[field_index]]) students[list[field_index]] = '';
-      students[list[field_index]] += students[list[field_index]]
-        ? `, ${list[firstname_index]}`
-        : list[firstname_index];
+      if (!students[list[fieldIndex]]) students[list[fieldIndex]] = '';
+      students[list[fieldIndex]] += students[list[fieldIndex]]
+        ? `, ${list[firstnameIndex]}`
+        : list[firstnameIndex];
     });
 
     console.log(`Number of students: ${lines.length}`);
@@ -38,7 +38,7 @@ module.exports = function countStudents (path) {
       if (Object.hasOwnProperty.call(fields, key)) {
         const element = fields[key];
         console.log(
-          `Number of students in ${key}: ${element}. List: ${students[key]}`
+          `Number of students in ${key}: ${element}. List: ${students[key]}`,
         );
       }
     }
