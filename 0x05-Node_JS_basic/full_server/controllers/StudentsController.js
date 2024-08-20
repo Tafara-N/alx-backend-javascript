@@ -6,13 +6,13 @@
  *
  */
 
-const readDatabase = require("../utils");
+const readDatabase = require('../utils');
 
 module.exports = class StudentsController {
   static getAllStudents(request, response) {
     readDatabase(process.argv[2])
       .then((data) => {
-        let defaultMessage = "This is the list of our students";
+        let defaultMessage = 'This is the list of our students';
 
         for (const field in data) {
           if (Object.hasOwnProperty.call(data, field)) {
@@ -28,18 +28,18 @@ module.exports = class StudentsController {
   }
 
   static getAllStudentsByMajor(request, response) {
-    if (!["SWE", "CS"].includes(request.params.major)) {
-      response.status(500).send("Major parameter must be CS or SWE");
+    if (!['SWE', 'CS'].includes(request.params.major)) {
+      response.status(500).send('Major parameter must be CS or SWE');
     }
     readDatabase(process.argv[2])
       .then((data) => {
         const defaultMessage = data[request.params.major].students;
-        console.log("defaultMessage", defaultMessage);
+        console.log('defaultMessage', defaultMessage);
         if (defaultMessage) response.send(defaultMessage);
-        response.status(500).send("Major parameter must be CS or SWE");
+        response.status(500).send('Major parameter must be CS or SWE');
       })
       .catch((error) => {
-        console.log("error", error);
+        console.log('error', error);
         response.send(error.message);
       });
   }
