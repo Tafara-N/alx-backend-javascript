@@ -1,5 +1,5 @@
 /**
- * Function that reads a file and prints the content
+ * Function that reads a file and prints the content: Synchronous version
  * @param {string} path - Path of the file
  * @returns {void}
  */
