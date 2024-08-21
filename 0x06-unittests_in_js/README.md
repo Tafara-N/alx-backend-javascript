@@ -321,10 +321,11 @@ GitHub repository: alx-backend-javascript
 Directory: 0x06-unittests_in_js
 File: 7-skip.test.js
 
-8. Basic Integration testing
-mandatory
-In a folder 8-api located at the root of the project directory, copy this package.json over.
+### 8. Basic Integration testing
 
+In a folder `8-api` located at the root of the project directory, copy this `package.json` over.
+
+```json
 {
   "name": "8-api",
   "version": "1.0.0",
@@ -493,7 +494,7 @@ In a folder `10-api`, reusing the previous project in `9-api` (`package.json`, `
 
 - Add an endpoint `GET /available_payments` that returns an object with the following structure:
 
-```json
+```javascript
 {
   payment_methods: {
     credit_cards: true,
