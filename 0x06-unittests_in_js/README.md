@@ -209,8 +209,8 @@ GitHub repository: alx-backend-javascript
 Directory: 0x06-unittests_in_js
 File: 4-payment.js, 4-payment.test.js
 
-5. Hooks
-mandatory
+### 5. Hooks
+
 Hooks are useful functions that can be called before execute one or all tests in a suite
 
 Copy the code from `4-payment.js` into a new file `5-payment.js`: (same content/same behavior)
