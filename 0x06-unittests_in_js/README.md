@@ -356,14 +356,19 @@ Create one suite for the index page:
 Correct status code?
 Correct result?
 Other?
-Server
 
-Terminal 1
+**Server**
 
+**Terminal 1**
+
+```bash
 bob@dylan:~/8-api$  node api.js
 API available on localhost port 7865
-Terminal 2
+```
 
+**Terminal 2**
+
+```bash
 bob@dylan:~/8-api$  curl http://localhost:7865 ; echo ""
 Welcome to the payment system
 bob@dylan:~/8-api$
@@ -382,19 +387,22 @@ bob@dylan:~/8-api$ npm test api.test.js
   23 passing (256ms)
 
 bob@dylan:~/8-api$
-Tips:
+```
 
-Since this is an integration test, you will need to have your node server running for the test to pass
-You can use the module request
-Requirements:
+**Tips:**
 
-You should be able to run the test suite using npm test api.test.js
-Every test should pass without any warnings
+- Since this is an integration test, you will need to have your node server running for the test to pass
+- You can use the module `request`
+
+**Requirements:**
+
+- You should be able to run the test suite using `npm test api.test.js`
+- Every test should pass without any warnings
+
 Repo:
-
 GitHub repository: alx-backend-javascript
 Directory: 0x06-unittests_in_js
-File: 8-api/package.json, 8-api/api.js, 8-api/api.test.js
+File: `8-api/package.json, 8-api/api.js, 8-api/api.test.js`
 
 ### 9. Regex integration testing
 
