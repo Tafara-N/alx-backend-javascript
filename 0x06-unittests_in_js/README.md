@@ -148,38 +148,42 @@ GitHub repository: alx-backend-javascript
 Directory: 0x06-unittests_in_js
 File: 2-calcul_chai.js, 2-calcul_chai.test.js
 
-3. Spies
-mandatory
+### 3. Spies
+
 Spies are a useful wrapper that will execute the wrapped function, and log useful information (e.g. was it called, with what arguments). Sinon is a library allowing you to create spies.
 
-Let’s install Sinon with npm:
+**Let’s install Sinon with npm:**
 
-Create a new file named utils.js
-Create a new module named Utils
-Create a property named calculateNumber and paste your previous code in the function
-Export the Utils module
-Create a new file named 3-payment.js:
+- Create a new file named `utils.js`
+- Create a new module named `Utils`
+- Create a property named `calculateNumber` and paste your previous code in the function
+- Export the Utils module
 
-Create a new function named sendPaymentRequestToApi. The function takes two argument totalAmount, and totalShipping
-The function calls the Utils.calculateNumber function with type SUM, totalAmount as a, totalShipping as b and display in the console the message The total is: <result of the sum>
-Create a new file named 3-payment.test.js and add a new suite named sendPaymentRequestToApi:
+**Create a new file named `3-payment.js`:**
 
-By using sinon.spy, make sure the math used for sendPaymentRequestToApi(100, 20) is the same as Utils.calculateNumber('SUM', 100, 20) (validate the usage of the Utils function)
-Requirements:
+- Create a new function named `sendPaymentRequestToApi`. The function takes two argument `totalAmount`, and `totalShipping`
+- The function calls the `Utils.calculateNumber` function with type `SUM`, `totalAmount` as `a`, `totalShipping` as `b` and display in the console the message `The total is: <result of the sum>`
 
-You should be able to run the test suite using npm test 3-payment.test.js
-Every test should pass without any warning
-You should use a spy to complete this exercise
-Tips:
+**Create a new file named `3-payment.test.js` and add a new suite named `sendPaymentRequestToApi`:**
 
-Remember to always restore a spy after using it in a test, it will prevent you from having weird behaviors
-Spies are really useful and allow you to focus only on what your code is doing and not the downstream APIs or functions
-Remember that integration test is different from unit test. Your unit test should test your code, not the code of a different function
+By using `sinon.spy`, make sure the math used for `sendPaymentRequestToApi(100, 20)` is the same as `Utils.calculateNumber('SUM', 100, 20)` (validate the usage of the `Utils` function)
+
+**Requirements:**
+
+- You should be able to run the test suite using `npm test 3-payment.test.js`
+- Every test should pass without any warning
+- You should use a `spy` to complete this exercise
+
+**Tips:**
+
+- Remember to always restore a spy after using it in a test, it will prevent you from having weird behaviors
+- Spies are really useful and allow you to focus only on what your code is doing and not the downstream APIs or functions
+- Remember that integration test is different from unit test. Your unit test should test your code, not the code of a different function
+
 Repo:
-
 GitHub repository: alx-backend-javascript
 Directory: 0x06-unittests_in_js
-File: utils.js, 3-payment.js, 3-payment.test.js
+File: `utils.js, 3-payment.js, 3-payment.test.js`
 
 ### 4. Stubs
 
