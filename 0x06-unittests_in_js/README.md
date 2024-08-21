@@ -97,7 +97,7 @@ bob@dylan:~$
 Repo:
 - GitHub repository: `alx-backend-javascript`
 - Directory: `0x06-unittests_in_js`
-File: `package.json, 0-calcul.js, 0-calcul.test.js`
+- File: `package.json, 0-calcul.js, 0-calcul.test.js`
 
 ### 1. Combining descriptions
 
@@ -143,7 +143,7 @@ File: `package.json, 0-calcul.js, 0-calcul.test.js`
 Repo:
 - GitHub repository: `alx-backend-javascript`
 - Directory: `0x06-unittests_in_js`
-File: `1-calcul.js, 1-calcul.test.js`
+- File: `1-calcul.js, 1-calcul.test.js`
 
 ### 2. Basic test using Chai assertion library
 
@@ -168,7 +168,7 @@ While using Node assert library is completely valid, a lot of developers prefer 
 Repo:
 - GitHub repository: `alx-backend-javascript`
 - Directory: `0x06-unittests_in_js`
-File: `2-calcul_chai.js, 2-calcul_chai.test.js`
+- File: `2-calcul_chai.js, 2-calcul_chai.test.js`
 
 ### 3. Spies
 
@@ -205,7 +205,7 @@ By using `sinon.spy`, make sure the math used for `sendPaymentRequestToApi(100, 
 Repo:
 - GitHub repository: `alx-backend-javascript`
 - Directory: `0x06-unittests_in_js`
-File: `utils.js, 3-payment.js, 3-payment.test.js`
+- File: `utils.js, 3-payment.js, 3-payment.test.js`
 
 ### 4. Stubs
 
@@ -235,7 +235,7 @@ Stubs are similar to spies. Except that you can provide a different implementati
 Repo:
 - GitHub repository: `alx-backend-javascript`
 - Directory: `0x06-unittests_in_js`
-File: `4-payment.js, 4-payment.test.js`
+- File: `4-payment.js, 4-payment.test.js`
 
 ### 5. Hooks
 
@@ -263,7 +263,7 @@ Copy the code from `4-payment.js` into a new file `5-payment.js`: (same content/
 Repo:
 - GitHub repository: `alx-backend-javascript`
 - Directory: `0x06-unittests_in_js`
-File: `5-payment.js, 5-payment.test.js`
+- File: `5-payment.js, 5-payment.test.js`
 
 ### 6. Async tests with done
 
@@ -293,7 +293,7 @@ Look into how to support async testing, for example when waiting for the answer 
 Repo:
 - GitHub repository: `alx-backend-javascript`
 - Directory: `0x06-unittests_in_js`
-File: `6-payment_token.js, 6-payment_token.test.js`
+- File: `6-payment_token.js, 6-payment_token.test.js`
 
 ### 7. Skip
 
@@ -356,7 +356,7 @@ describe('Testing numbers', () => {
 Repo:
 - GitHub repository: `alx-backend-javascript`
 - Directory: `0x06-unittests_in_js`
-File: `7-skip.test.js`
+- File: `7-skip.test.js`
 
 ### 8. Basic Integration testing
 
@@ -443,7 +443,7 @@ bob@dylan:~/8-api$
 Repo:
 - GitHub repository: `alx-backend-javascript`
 - Directory: `0x06-unittests_in_js`
-File: `8-api/package.json, 8-api/api.js, 8-api/api.test.js`
+- File: `8-api/package.json, 8-api/api.js, 8-api/api.test.js`
 
 ### 9. Regex integration testing
 
@@ -521,7 +521,7 @@ bob@dylan:~$
 Repo:
 - GitHub repository: `alx-backend-javascript`
 - Directory: `0x06-unittests_in_js`
-File: `9-api/api.js, 9-api/api.test.js, 9-api/package.json`
+- File: `9-api/api.js, 9-api/api.test.js, 9-api/package.json`
 
 ### 10. Deep equality & Post integration testing
 
@@ -580,4 +580,4 @@ bob@dylan:~$
 Repo:
 - GitHub repository: `alx-backend-javascript`
 - Directory: `0x06-unittests_in_js`
-File: `10-api/api.js, 10-api/api.test.js, 10-api/package.json`
+- File: `10-api/api.js, 10-api/api.test.js, 10-api/package.json`
