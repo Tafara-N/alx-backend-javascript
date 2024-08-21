@@ -409,9 +409,9 @@ In a folder `9-api`, reusing the previous project in `8-api` (`package.json`, `a
 **Modify the file `api.test.js`:**
 
 - Add a new test suite for the cart page:
-- Correct status code when `:id` is a number?
-- Correct status code when `:id` is NOT a number (=> 404)?
-- etc.
+    - Correct status code when `:id` is a number?
+    - Correct status code when `:id` is NOT a number (=> 404)?
+    - etc.
 
 **Server**
 
