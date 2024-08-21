@@ -27,17 +27,20 @@ All your files should end with a new line
 A README.md file, at the root of the folder of the project, is mandatory
 Your code should use the js extension
 When running every test with npm run test *.test.js, everything should pass correctly without any warning or error
-Tasks
-0. Basic test with Mocha and Node assertion library
-mandatory
-Install Mocha using npm:
 
-Set up a scripts in your package.json to quickly run Mocha using npm test
-You have to use assert
-Create a new file named 0-calcul.js:
+## Tasks
 
-Create a function named calculateNumber. It should accepts two arguments (number) a and b
-The function should round a and b and return the sum of it
+### 0. Basic test with Mocha and Node assertion library
+
+**Install Mocha using npm:**
+
+- Set up a scripts in your `package.json` to quickly run Mocha using `npm test`
+- You have to use `assert`
+
+**Create a new file named `0-calcul.js`:**
+
+- Create a function named `calculateNumber`. It should accepts two arguments (number) `a` and `b`
+- The function should round `a` and `b` and return the sum of it
 
 **Test cases**
 
