@@ -236,32 +236,35 @@ GitHub repository: alx-backend-javascript
 Directory: 0x06-unittests_in_js
 File: 5-payment.js, 5-payment.test.js
 
-6. Async tests with done
-mandatory
+### 6. Async tests with done
+
 Look into how to support async testing, for example when waiting for the answer of an API or from a Promise
 
-Create a new file 6-payment_token.js:
+**Create a new file `6-payment_token.js`:**
 
-Create a new function named getPaymentTokenFromAPI
-The function will take an argument called success (boolean)
-When success is true, it should return a resolved promise with the object {data: 'Successful response from the API' }
-Otherwise, the function is doing nothing.
-Create a new file 6-payment_token.test.js and write a test suite named getPaymentTokenFromAPI
+- Create a new function named `getPaymentTokenFromAPI`
+- The function will take an argument called `success` (boolean)
+- When `success` is true, it should return a resolved promise with the object `{data: 'Successful response from the API' }`
+- Otherwise, the function is doing nothing.
 
-How to test the result of getPaymentTokenFromAPI(true)?
-Tips:
+**Create a new file `6-payment_token.test.js` and write a test suite named `getPaymentTokenFromAPI`**
 
-You should be extremely careful when working with async testing. Without calling done properly, your test could be always passing even if what you are actually testing is never executed
-Requirements:
+- How to test the result of `getPaymentTokenFromAPI(true)`?
 
-You should be able to run the test suite using npm test 6-payment_token.test.js
-Every test should pass without any warning
-You should use the done callback to execute this test
+**Tips:**
+
+- You should be extremely careful when working with async testing. Without calling `done` properly, your test could be always passing even if what you are actually testing is never executed
+
+**Requirements:**
+
+- You should be able to run the test suite using `npm test 6-payment_token.test.js`
+- Every test should pass without any warning
+- You should use the `done` callback to execute this test
+
 Repo:
-
 GitHub repository: alx-backend-javascript
 Directory: 0x06-unittests_in_js
-File: 6-payment_token.js, 6-payment_token.test.js
+File: `6-payment_token.js, 6-payment_token.test.js`
 
 ### 7. Skip
 
