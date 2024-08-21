@@ -94,7 +94,7 @@ bob@dylan:~$ npm test 0-calcul.test.js
 bob@dylan:~$
 ```
 
-Repo:
+**Repo:**
 - GitHub repository: `alx-backend-javascript`
 - Directory: `0x06-unittests_in_js`
 - File: `package.json, 0-calcul.js, 0-calcul.test.js`
@@ -140,7 +140,7 @@ Repo:
 'Error'
 ```
 
-Repo:
+**Repo:**
 - GitHub repository: `alx-backend-javascript`
 - Directory: `0x06-unittests_in_js`
 - File: `1-calcul.js, 1-calcul.test.js`
@@ -165,7 +165,7 @@ While using Node assert library is completely valid, a lot of developers prefer 
 - You should be able to run the test suite using `npm test 2-calcul_chai.test.js`
 - Every test should pass without any warning
 
-Repo:
+**Repo:**
 - GitHub repository: `alx-backend-javascript`
 - Directory: `0x06-unittests_in_js`
 - File: `2-calcul_chai.js, 2-calcul_chai.test.js`
@@ -202,7 +202,7 @@ By using `sinon.spy`, make sure the math used for `sendPaymentRequestToApi(100, 
 - Spies are really useful and allow you to focus only on what your code is doing and not the downstream APIs or functions
 - Remember that integration test is different from unit test. Your unit test should test your code, not the code of a different function
 
-Repo:
+**Repo:**
 - GitHub repository: `alx-backend-javascript`
 - Directory: `0x06-unittests_in_js`
 - File: `utils.js, 3-payment.js, 3-payment.test.js`
@@ -232,7 +232,7 @@ Stubs are similar to spies. Except that you can provide a different implementati
 - Using stubs allows you to greatly speed up your test. When executing thousands of tests, saving a few seconds is important
 - Using stubs allows you to control specific edge case (e.g a function throwing an error or returning a specific result like a number or a timestamp)
 
-Repo:
+**Repo:**
 - GitHub repository: `alx-backend-javascript`
 - Directory: `0x06-unittests_in_js`
 - File: `4-payment.js, 4-payment.test.js`
@@ -260,7 +260,7 @@ Copy the code from `4-payment.js` into a new file `5-payment.js`: (same content/
 - You should use only one `spy` to complete this exercise
 - You should use a `beforeEach` and a `afterEach` hooks to complete this exercise
 
-Repo:
+**Repo:**
 - GitHub repository: `alx-backend-javascript`
 - Directory: `0x06-unittests_in_js`
 - File: `5-payment.js, 5-payment.test.js`
@@ -290,7 +290,7 @@ Look into how to support async testing, for example when waiting for the answer 
 - Every test should pass without any warning
 - You should use the `done` callback to execute this test
 
-Repo:
+**Repo:**
 - GitHub repository: `alx-backend-javascript`
 - Directory: `0x06-unittests_in_js`
 - File: `6-payment_token.js, 6-payment_token.test.js`
@@ -353,7 +353,7 @@ describe('Testing numbers', () => {
 - You should be able to run the test suite using `npm test 7-skip.test.js`
 - Every test should pass without any warning
 
-Repo:
+**Repo:**
 - GitHub repository: `alx-backend-javascript`
 - Directory: `0x06-unittests_in_js`
 - File: `7-skip.test.js`
@@ -440,7 +440,7 @@ bob@dylan:~/8-api$
 - You should be able to run the test suite using `npm test api.test.js`
 - Every test should pass without any warnings
 
-Repo:
+**Repo:**
 - GitHub repository: `alx-backend-javascript`
 - Directory: `0x06-unittests_in_js`
 - File: `8-api/package.json, 8-api/api.js, 8-api/api.test.js`
@@ -518,7 +518,7 @@ bob@dylan:~$
 - You should be able to run the test suite using `npm test api.test.js`
 - Every test should pass without any warning
 
-Repo:
+**Repo:**
 - GitHub repository: `alx-backend-javascript`
 - Directory: `0x06-unittests_in_js`
 - File: `9-api/api.js, 9-api/api.test.js, 9-api/package.json`
@@ -577,7 +577,7 @@ bob@dylan:~$
 - Every test should pass without any warning
 - Your server should not display any error
 
-Repo:
+**Repo:**
 - GitHub repository: `alx-backend-javascript`
 - Directory: `0x06-unittests_in_js`
 - File: `10-api/api.js, 10-api/api.test.js, 10-api/package.json`
