@@ -263,12 +263,13 @@ GitHub repository: alx-backend-javascript
 Directory: 0x06-unittests_in_js
 File: 6-payment_token.js, 6-payment_token.test.js
 
-7. Skip
-mandatory
-When you have a long list of tests, and you can’t figure out why a test is breaking, avoid commenting out a test, or removing it. Skip it instead, and file a ticket to come back to it as soon as possible
+### 7. Skip
 
-You will be using this file, conveniently named 7-skip.test.js
+When you have a long list of tests, and you can’t figure out why a test is breaking, avoid commenting out a test, or removing it. **Skip** it instead, and file a ticket to come back to it as soon as possible
 
+You will be using this file, conveniently named `7-skip.test.js`
+
+```javascript
 const { expect } = require('chai');
 
 describe('Testing numbers', () => {
@@ -304,22 +305,26 @@ describe('Testing numbers', () => {
     expect(7 === 7).to.be.true;
   });
 });
-Using the file 7-skip.test.js:
+```
 
-Make the test suite pass without fixing or removing the failing test
-it description must stay the same
-Tips:
+**Using the file `7-skip.test.js`:**
 
-Skipping is also very helpful when you only want to execute the test in a particular case (specific environment, or when an API is not behaving correctly)
-Requirements:
+- Make the test suite pass **without** fixing or removing the failing test
+- `it` description **must stay** the same
 
-You should be able to run the test suite using npm test 7-skip.test.js
-Every test should pass without any warning
+**Tips:**
+
+- Skipping is also very helpful when you only want to execute the test in a particular case (specific environment, or when an API is not behaving correctly)
+
+**Requirements:**
+
+- You should be able to run the test suite using `npm test 7-skip.test.js`
+- Every test should pass without any warning
+
 Repo:
-
 GitHub repository: alx-backend-javascript
 Directory: 0x06-unittests_in_js
-File: 7-skip.test.js
+File: `7-skip.test.js`
 
 ### 8. Basic Integration testing
 
