@@ -181,33 +181,35 @@ GitHub repository: alx-backend-javascript
 Directory: 0x06-unittests_in_js
 File: utils.js, 3-payment.js, 3-payment.test.js
 
-4. Stubs
-mandatory
+### 4. Stubs
+
 Stubs are similar to spies. Except that you can provide a different implementation of the function you are wrapping. Sinon can be used as well for stubs.
 
-Create a new file 4-payment.js, and copy the code from 3-payment.js (same content, same behavior)
+**Create a new file `4-payment.js`, and copy the code from `3-payment.js` (same content, same behavior)**
 
-Create a new file 4-payment.test.js, and copy the code from 3-payment.test.js
+**Create a new file `4-payment.test.js`, and copy the code from `3-payment.test.js`**
 
-Imagine that calling the function Utils.calculateNumber is actually calling an API or a very expensive method. You don’t necessarily want to do that on every test run
-Stub the function Utils.calculateNumber to always return the same number 10
-Verify that the stub is being called with type = SUM, a = 100, and b = 20
-Add a spy to verify that console.log is logging the correct message The total is: 10
-Requirements:
+- Imagine that calling the function `Utils.calculateNumber` is actually calling an API or a very expensive method. You don’t necessarily want to do that on every test run
+- Stub the function `Utils.calculateNumber` to always return the same number `10`
+- Verify that the stub is being called with `type = SUM, a = 100`, and `b = 20`
+- Add a spy to verify that console.log is logging the correct message `The total is: 10`
 
-You should be able to run the test suite using npm test 4-payment.test.js
-Every test should pass without any warning
-You should use a stub to complete this exercise
-Do not forget to restore the spy and the stub
-Tips:
+**Requirements:**
 
-Using stubs allows you to greatly speed up your test. When executing thousands of tests, saving a few seconds is important
-Using stubs allows you to control specific edge case (e.g a function throwing an error or returning a specific result like a number or a timestamp)
+- You should be able to run the test suite using `npm test 4-payment.test.js`
+- Every test should pass without any warning
+- You should use a `stub` to complete this exercise
+- Do not forget to restore the spy and the stub
+
+**Tips:**
+
+- Using stubs allows you to greatly speed up your test. When executing thousands of tests, saving a few seconds is important
+- Using stubs allows you to control specific edge case (e.g a function throwing an error or returning a specific result like a number or a timestamp)
+
 Repo:
-
 GitHub repository: alx-backend-javascript
 Directory: 0x06-unittests_in_js
-File: 4-payment.js, 4-payment.test.js
+File: `4-payment.js, 4-payment.test.js`
 
 ### 5. Hooks
 
