@@ -85,31 +85,36 @@ GitHub repository: alx-backend-javascript
 Directory: 0x06-unittests_in_js
 File: package.json, 0-calcul.js, 0-calcul.test.js
 
-1. Combining descriptions
-mandatory
-Create a new file named 1-calcul.js:
+### 1. Combining descriptions
 
-Upgrade the function you created in the previous task (0-calcul.js)
-Add a new argument named type at first argument of the function. type can be SUM, SUBTRACT, or DIVIDE (string)
-When type is SUM, round the two numbers, and add a and b
-When type is SUBTRACT, round the two numbers, and subtract b from a
-When type is DIVIDE, round the two numbers, and divide a with b - if the rounded value of b is equal to 0, return the string Error
-Test cases
+**Create a new file named `1-calcul.js`:**
 
-Create a file 1-calcul.test.js that contains test cases of this function
-You can assume a and b are always number
-Usage of describe will help you to organize your test cases
-Tips:
+- Upgrade the function you created in the previous task (`0-calcul.js`)
+- Add a new argument named `type` at first argument of the function. `type` can be `SUM`, `SUBTRACT`, or `DIVIDE` (string)
+- When type is `SUM`, round the two numbers, and add `a` and `b`
+- When type is `SUBTRACT`, round the two numbers, and subtract `b` from `a`
+- When type is `DIVIDE`, round the two numbers, and divide `a` with `b` - if the rounded value of `b` is equal to 0, return the string `Error`
 
-For the sake of the example, this test suite is slightly extreme and probably not needed
-However, remember that your tests should not only verify what a function is supposed to do, but also the edge cases
-Requirements:
+**Test cases**
 
-You have to use assert
-You should be able to run the test suite using npm test 1-calcul.test.js
-Every test should pass without any warning
-Expected output
+- Create a file `1-calcul.test.js` that contains test cases of this function
+- You can assume `a` and `b` are always number
+- Usage of `describe` will help you to organize your test cases
 
+**Tips:**
+
+- For the sake of the example, this test suite is slightly extreme and probably not needed
+0 However, remember that your tests should not only verify what a function is supposed to do, but also the edge cases
+
+**Requirements:**
+
+- You have to use `assert`
+- You should be able to run the test suite using `npm test 1-calcul.test.js`
+- Every test should pass without any warning
+
+**Expected output**
+
+```javascript
 > const calculateNumber = require("./1-calcul.js");
 > calculateNumber('SUM', 1.4, 4.5)
 6
@@ -119,11 +124,12 @@ Expected output
 0.2
 > calculateNumber('DIVIDE', 1.4, 0)
 'Error'
-Repo:
+```
 
+Repo:
 GitHub repository: alx-backend-javascript
 Directory: 0x06-unittests_in_js
-File: 1-calcul.js, 1-calcul.test.js
+File: `1-calcul.js, 1-calcul.test.js`
 
 ### 2. Basic test using Chai assertion library
 
