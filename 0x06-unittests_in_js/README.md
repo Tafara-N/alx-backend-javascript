@@ -224,17 +224,18 @@ Verify that the console is only called once
 The second test will call sendPaymentRequestToAPI with 10, and 10:
 Verify that the console is logging the string The total is: 20
 Verify that the console is only called once
-Requirements:
 
-You should be able to run the test suite using npm test 5-payment.test.js
-Every test should pass without any warning
-You should use only one spy to complete this exercise
-You should use a beforeEach and a afterEach hooks to complete this exercise
+**Requirements:**
+
+- You should be able to run the test suite using `npm test 5-payment.test.js`
+- Every test should pass without any warning
+- You should use only one `spy` to complete this exercise
+- You should use a `beforeEach` and a `afterEach` hooks to complete this exercise
+
 Repo:
-
 GitHub repository: alx-backend-javascript
 Directory: 0x06-unittests_in_js
-File: 5-payment.js, 5-payment.test.js
+File: `5-payment.js, 5-payment.test.js`
 
 ### 6. Async tests with done
 
