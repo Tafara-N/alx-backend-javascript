@@ -213,17 +213,17 @@ File: 4-payment.js, 4-payment.test.js
 mandatory
 Hooks are useful functions that can be called before execute one or all tests in a suite
 
-Copy the code from 4-payment.js into a new file 5-payment.js: (same content/same behavior)
+Copy the code from `4-payment.js` into a new file `5-payment.js`: (same content/same behavior)
 
-Create a new file 5-payment.test.js:
+**Create a new file `5-payment.test.js`:**
 
-Inside the same describe, create 2 tests:
-The first test will call sendPaymentRequestToAPI with 100, and 20:
-Verify that the console is logging the string The total is: 120
-Verify that the console is only called once
-The second test will call sendPaymentRequestToAPI with 10, and 10:
-Verify that the console is logging the string The total is: 20
-Verify that the console is only called once
+- Inside the same `describe`, create 2 tests:
+- The first test will call `sendPaymentRequestToAPI` with 100, and 20:
+- Verify that the console is logging the string `The total is: 120`
+- Verify that the console is only called once
+- The second test will call `sendPaymentRequestToAPI` with 10, and 10:
+- Verify that the console is logging the string `The total is: 20`
+- Verify that the console is only called once
 
 **Requirements:**
 
