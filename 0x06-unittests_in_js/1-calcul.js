@@ -1,4 +1,4 @@
-// Basic test using Chai assertion library
+// Basic test with Mocha and Node assertion library
 
 const calculateNumber = (type, a, b) => {
   const aRound = Math.round(a);
