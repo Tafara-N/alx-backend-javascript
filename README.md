@@ -29,12 +29,12 @@ ___
 # Resources
 
 **Read or watch:**
-- [ECMAScript 6 - ECMAScript 2015](https://intranet.alxswe.com/rltoken/NW1dFLFExQ12_hD8yvkV3A)
-- [Statements and declarations](https://intranet.alxswe.com/rltoken/sroRUsUvOZV28V99MHDenw)
-- [Arrow functions](https://intranet.alxswe.com/rltoken/N2WLylppCtkkX3YFFtyUHw)
-- [Default parameters](https://intranet.alxswe.com/rltoken/kbw9gMO6sdeOKAY23SYVgA)
-- [Rest parameter](https://intranet.alxswe.com/rltoken/erZfCvacuGVk9z1CQlJvYQ)
-- [Javascript ES6 — Iterables and Iterators](https://intranet.alxswe.com/rltoken/k4hZsX3vRfX2FkAithvjoA)
+- [ECMAScript 6 - ECMAScript 2015](https://www.w3schools.com/js/js_es6.asp)
+- [Statements and declarations](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements)
+- [Arrow functions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions)
+- [Default parameters](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Default_parameters)
+- [Rest parameter](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/rest_parameters)
+- [Javascript ES6 — Iterables and Iterators](https://towardsdatascience.com/javascript-es6-iterables-and-iterators-de18b54f4d4)
 - [Promise](https://intranet.alxswe.com/rltoken/j_0FTFbkTg42JMcAbNPOVQ)
 - [JavaScript Promise: An introduction](https://intranet.alxswe.com/rltoken/2Q2LzNFokcUwpA2u3FKG6Q)
 - [Await](https://intranet.alxswe.com/rltoken/UXb3S2PMBe-SLJ55isMcow)
@@ -42,7 +42,7 @@ ___
 - [Throw / Try](https://intranet.alxswe.com/rltoken/UTjDgvKk5l892Xslh0vqcQ)
 
 # Learning Objectives
-At the end of this project, you are expected to be able to [explain to anyone](https://intranet.alxswe.com/rltoken/KDGvEqVWIsvOQfCcwDNHNg), **without the help of Google:**
+At the end of this project, you are expected to be able to [explain to anyone](https://fs.blog/feynman-learning-technique/), **without the help of Google:**
 
 - What ES6 is
 - New features introduced in ES6
@@ -68,8 +68,8 @@ At the end of this project, you are expected to be able to [explain to anyone](h
 - All your files should end with a new line
 - A `README.md` file, at the root of the folder of the project, is mandatory
 - Your code should use the `js` extension
-- Your code will be tested using the [Jest Testing Framework](https://intranet.alxswe.com/rltoken/ECZpKsJ3fm1qRA7lDyhd_Q)
-- Your code will be analyzed using the linter [ESLint](https://intranet.alxswe.com/rltoken/Ttd9w5jERwTErJW3DDbVoQ) along with specific rules that we’ll provide
+- Your code will be tested using the [Jest Testing Framework](https://jestjs.io/)
+- Your code will be analyzed using the linter [ESLint](https://eslint.org/) along with specific rules that we’ll provide
 - All of your functions must be exported
 
 # Setup
