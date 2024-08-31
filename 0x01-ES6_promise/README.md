@@ -25,8 +25,8 @@ At the end of this project, you are expected to be able to [explain to anyone](h
 - All your files should end with a new line
 - A `README.md` file, at the root of the folder of the project, is mandatory
 - Your code should use the `js` extension
-- Your code will be tested using `Jest` and the command `npm run test`
-- Your code will be verified against lint using ESLint
+- Your code will be tested using [Jest](https://jestjs.io/) and the command `npm run test`
+- Your code will be verified against lint using [ESLint](https://eslint.org/)
 - All of your functions must be exported
 
 # Setup
