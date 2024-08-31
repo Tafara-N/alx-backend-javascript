@@ -3,14 +3,14 @@
 # Resources
 
 **Read or watch:**
-- [Array](https://intranet.alxswe.com/rltoken/bcXqK1IaIHtrZ45sv0RxsQ)
-- [Typed Array](https://intranet.alxswe.com/rltoken/YZ5RtzAPTaWtF00MYbXuVw)
-- [Set Data Structure](https://intranet.alxswe.com/rltoken/Ch8vq39y9QnlTMr8CymgEg)
-- [Map Data Structure](https://intranet.alxswe.com/rltoken/W29MV3f8Ii4HmeJSALNIpw)
-- [WeakMap](https://intranet.alxswe.com/rltoken/pSetFVFeIR660GPE0flPdg)
+- [Array](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)
+- [Typed Array](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Typed_arrays)
+- [Set Data Structure](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set)
+- [Map Data Structure](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map)
+- [WeakMap](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/WeakMap)
 
 # Learning Objectives
-At the end of this project, you are expected to be able to [explain to anyone](https://intranet.alxswe.com/rltoken/vFyWo9TJ_4ypOC6uPi2low), **without the help of Google:**
+At the end of this project, you are expected to be able to [explain to anyone](https://fs.blog/feynman-learning-technique/), **without the help of Google:**
 
 - How to use map, filter and reduce on arrays
 - Typed arrays
@@ -22,8 +22,8 @@ At the end of this project, you are expected to be able to [explain to anyone](h
 - All your files should end with a new line
 - A `README.md` file, at the root of the folder of the project, is mandatory
 - Your code should use the `js` extension
-- Your code will be tested using [Jest](https://intranet.alxswe.com/rltoken/ECZpKsJ3fm1qRA7lDyhd_Q) and the command `npm run test`
-- Your code will be verified against lint using [ESLint](https://intranet.alxswe.com/rltoken/Ttd9w5jERwTErJW3DDbVoQ)
+- Your code will be tested using [Jest](https://jestjs.io/) and the command `npm run test`
+- Your code will be verified against lint using [ESLint](https://eslint.org/)
 - Your code needs to pass all the tests and lint. You can verify the entire project running `npm run full-test`
 - All of your functions must be exported
 
