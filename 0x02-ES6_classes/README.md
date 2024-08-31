@@ -3,11 +3,11 @@
 # Resources
 
 **Read or watch:**
-- [Classes](https://intranet.alxswe.com/rltoken/ke2dSL31JbpAUBW0qWE9WA)
-- [Metaprogramming](https://intranet.alxswe.com/rltoken/6OgF5QGbYclp_cwATfq-0g)
+- [Classes](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes)
+- [Metaprogramming](https://www.keithcirkel.co.uk/metaprogramming-in-es6-symbols/#symbolspecies)
 
 # Learning Objectives
-At the end of this project, you are expected to be able to [explain to anyone](https://intranet.alxswe.com/rltoken/KDGvEqVWIsvOQfCcwDNHNg), **without the help of Google:**
+At the end of this project, you are expected to be able to [explain to anyone](https://fs.blog/feynman-learning-technique/), **without the help of Google:**
 
 - How to define a Class
 - How to add methods to a class
@@ -23,8 +23,8 @@ At the end of this project, you are expected to be able to [explain to anyone](h
 - All your files should end with a new line
 - A `README.md` file, at the root of the folder of the project, is mandatory
 - Your code should use the `js` extension
-- Your code will be tested using the [Jest Testing Framework](https://intranet.alxswe.com/rltoken/ECZpKsJ3fm1qRA7lDyhd_Q) and the command `npm run test`
-- Your code will be analyzed using the linter [ESLint](https://intranet.alxswe.com/rltoken/Ttd9w5jERwTErJW3DDbVoQ) along with specific rules that we’ll provide
+- Your code will be tested using the [Jest Testing Framework](https://jestjs.io/) and the command `npm run test`
+- Your code will be analyzed using the linter [ESLint](https://eslint.org/) along with specific rules that we’ll provide
 - Your code needs to pass all the tests and lint. You can verify the entire project running `npm run full-test`
 
 # Setup
